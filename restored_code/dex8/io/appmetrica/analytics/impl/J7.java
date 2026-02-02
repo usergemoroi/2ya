@@ -79,8 +79,6 @@ extends InterruptionSafeThread {
                                     return;
                                 }
                                 ** synchronized (this)
-lbl-1000:
-                                // 1 sources
 
                                 {
                                     block19: {
@@ -125,7 +123,7 @@ lbl-1000:
                             var4_9.i.get();
                         }
                         catch (Throwable var2_7) {
-                            ** GOTO lbl55
+
                         }
                     }
                     if (var1_1 == null) break block22;
@@ -136,7 +134,6 @@ lbl-1000:
                             var1_1 = var2_6;
                         }
 lbl55:
-                        // 2 sources
 
                         if (var1_1 != null) {
                             var1_1.endTransaction();

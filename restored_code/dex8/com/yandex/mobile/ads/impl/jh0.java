@@ -88,11 +88,9 @@ implements vv0 {
                 object2 = byteArrayOutputStream.toByteArray();
                 m92.a((Closeable)nv3);
                 return object2;
-                catch (Throwable throwable222) {
-                    break block13;
+        // Removed invalid catch block
                 }
-                catch (eh0 eh022) {}
-                n13 = eh022.e;
+        // Removed invalid catch block
                 object2 = (n13 == 307 || n13 == 308) && n10 < 5 && (object2 = eh022.f) != null && (object2 = (List)object2.get("Location")) != null && !object2.isEmpty() ? (String)object2.get(0) : null;
                 if (object2 == null) break;
                 ++n10;

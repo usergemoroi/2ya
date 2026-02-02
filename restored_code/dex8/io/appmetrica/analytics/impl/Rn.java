@@ -67,15 +67,13 @@ public final class rn {
                 continue;
                 break;
             }
-            catch (Throwable throwable) {
-                ro.a(cursor);
+        // Removed invalid catch block
                 throw throwable;
             }
         }
         return bl2;
         {
-            catch (Throwable throwable2) {}
-        }
+        // Removed invalid catch block
         finally {
             return false;
         }

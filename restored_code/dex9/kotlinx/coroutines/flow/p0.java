@@ -166,7 +166,7 @@ implements m0 {
                                 if (var1_1.emit((Object)var7_7, (d)this) == var6_2) {
                                     return var6_2;
                                 } else {
-                                    ** GOTO lbl52
+
                                 }
                             }
                             break block12;

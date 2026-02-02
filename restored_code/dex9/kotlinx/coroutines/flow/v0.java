@@ -58,8 +58,7 @@ implements g0<T> {
         if ((var3_4 & -2147483648) != 0) {
             var4_3.n = var3_4 + -2147483648;
             var2_2 = var4_3;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var2_2 = new kotlin.coroutines.jvm.internal.d(this, (d<? super a>)var2_2){

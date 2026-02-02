@@ -55,8 +55,7 @@ implements i<T> {
                 if ((var2_4 & -2147483648) != 0) {
                     var3_3.p = var2_4 + -2147483648;
                     var1_1 = var3_3;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var1_1 = new kotlin.coroutines.jvm.internal.d(this, var1_1){

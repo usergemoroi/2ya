@@ -69,13 +69,11 @@ implements Encrypter {
         }
         CloseableUtilsKt.closeSafely((Closeable)object);
         return null;
-        catch (Throwable throwable) {
-            Object object4;
+        // Removed invalid catch block
             block5: {
                 object4 = null;
                 break block5;
-                catch (Throwable throwable2) {
-                    object4 = object;
+        // Removed invalid catch block
                 }
             }
             CloseableUtilsKt.closeSafely(object4);

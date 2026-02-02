@@ -281,8 +281,7 @@ implements Handler.Callback {
             }
             return;
         }
-        catch (s32 s323) {}
-        object2 = new StringBuilder("Subtitle decoding failed. streamFormat=");
+        // Removed invalid catch block
         ((StringBuilder)object2).append(this.v);
         zs0.a((String)"TextRenderer", (String)((StringBuilder)object2).toString(), (Throwable)((Object)s323));
         List<wu> list = Collections.emptyList();

@@ -198,16 +198,14 @@ implements Future {
             stringBuilder.append(runtimeException222.getClass());
             stringBuilder.append(" thrown from get()]");
             return;
-            catch (CancellationException cancellationException) {
-                stringBuilder.append("CANCELLED");
+        // Removed invalid catch block
                 return;
             }
             stringBuilder.append("FAILURE, cause=[");
             stringBuilder.append(executionException222.getCause());
             stringBuilder.append("]");
             return;
-            catch (InterruptedException interruptedException) {
-                bl2 = true;
+        // Removed invalid catch block
                 continue;
             }
             break;

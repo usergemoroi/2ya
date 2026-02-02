@@ -87,8 +87,7 @@ public final class z7 {
                 }
                 return;
             }
-            catch (Throwable throwable) {
-            }
+        // Removed invalid catch block
         }
     }
 }

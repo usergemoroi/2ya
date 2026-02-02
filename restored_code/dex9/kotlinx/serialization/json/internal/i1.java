@@ -341,7 +341,7 @@ implements g {
                             var2_5 /* !! */  = (JsonElement)(var3_8 = (JsonObject)var3_8).get(var4_9);
                             var2_5 /* !! */  = var2_5 /* !! */  != null && (var2_5 /* !! */  = i.k((JsonElement)var2_5 /* !! */ )) != null ? i.f((JsonPrimitive)var2_5 /* !! */ ) : null;
                         }
-                        ** GOTO lbl30
+
                     }
                     var1_1 = var1_1.deserialize((Decoder)this);
                 }
@@ -351,8 +351,7 @@ implements g {
                 return (T)var1_1;
                 var1_1 = kotlinx.serialization.h.a((kotlinx.serialization.internal.b)((kotlinx.serialization.internal.b)var1_1), (kotlinx.serialization.encoding.c)this, (String)var2_5 /* !! */ );
                 {
-                    catch (n var1_3) {
-                        var1_4 = var1_3.getMessage();
+        // Removed invalid catch block
                         y.g((Object)var1_4);
                         throw n0.f((int)-1, (String)var1_4, (CharSequence)var3_8.toString());
                     }
@@ -360,7 +359,6 @@ implements g {
                     var1_1 = p1.b((kotlinx.serialization.json.b)this.d(), (String)var4_9, (JsonObject)var3_8, (c)var1_1);
                     return (T)var1_1;
 lbl30:
-                    // 1 sources
 
                     var1_1 = new StringBuilder();
                     var1_1.append("Expected ");
@@ -373,7 +371,6 @@ lbl30:
                     var1_1.append(this.c.b.a());
                     throw n0.f((int)-1, (String)var1_1.toString(), (CharSequence)var3_8.toString());
 lbl48:
-                    // 1 sources
 
                     var1_1 = var1_1.deserialize((Decoder)this);
                 }

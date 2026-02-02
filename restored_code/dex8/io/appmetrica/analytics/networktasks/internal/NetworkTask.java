@@ -75,7 +75,6 @@ public class NetworkTask {
                     var4_5 = ((int[])var1_1).length;
                     var2_6 = 0;
 lbl7:
-                    // 2 sources
 
                     while (true) {
                         var8_10 = var9_3;
@@ -84,7 +83,7 @@ lbl7:
                             var6_8 = true;
                             var7_9 = true;
                         }
-                        ** GOTO lbl-1000
+
                         break;
                     }
                 }
@@ -169,9 +168,6 @@ lbl7:
                 } while (true);
                 if (!Boolean.TRUE.equals(var8_10)) ** GOTO lbl-1000
                 ++var2_6;
-                ** continue;
-lbl-1000:
-                // 2 sources
 
                 {
                     var1_1 = Boolean.TRUE;

@@ -311,7 +311,6 @@ implements t70 {
                     var5_4 = (int)Math.min((long)(var4_3 - var5_4), var2_2);
                     if ((var5_4 = var1_1.read(this.e, this.i, var5_4)) != -1) break block12;
 lbl14:
-                    // 2 sources
 
                     var17_9 = true;
                     continue;

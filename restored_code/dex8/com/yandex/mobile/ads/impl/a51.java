@@ -91,7 +91,7 @@ implements p<q0, d<? super List<? extends i41>>, Object> {
                 v.b(var1_1);
                 var8_10 = var1_1;
                 var1_1 = var9_4;
-                ** GOTO lbl63
+
             }
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
         }
@@ -190,7 +190,6 @@ implements p<q0, d<? super List<? extends i41>>, Object> {
             var4_7 /* !! */  = var8_10;
             var8_10 = var9_4;
 lbl63:
-            // 2 sources
 
             var8_10 = (List)var8_10;
             var9_4 = t.o0((Iterable)var8_10);

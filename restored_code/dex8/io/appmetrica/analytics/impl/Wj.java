@@ -41,7 +41,6 @@ public final class wj {
         if (var6_4 /* !! */  != null) ** GOTO lbl15
         var7_7 = ((WindowManager)var0.getSystemService("window")).getDefaultDisplay();
 lbl15:
-        // 2 sources
 
         if (var7_7 == null) return null;
         var6_4 /* !! */  = new vj();
@@ -57,10 +56,8 @@ lbl15:
         var1_11 = var0.density;
         return new ScreenInfo(var3_8, var4_9, var2_10, var1_11);
         {
-            catch (Throwable var0_2) {}
-        }
-        catch (Throwable var0_1) {
-            var2_10 = 0;
+        // Removed invalid catch block
+        // Removed invalid catch block
             var1_11 = 0.0f;
         }
         return new ScreenInfo(var3_8, var4_9, var2_10, var1_11);

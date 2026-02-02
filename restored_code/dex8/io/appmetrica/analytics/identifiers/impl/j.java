@@ -53,7 +53,7 @@ implements b {
             var3_6 = var4_4 = new c(var6_10, (a)var5_11, null, 4);
             try {
                 var5_11 = this.a;
-                ** GOTO lbl34
+
             }
             catch (Throwable var1_2) {
                 return var3_6;
@@ -61,19 +61,18 @@ implements b {
             catch (Throwable var4_5) {
             }
             catch (g var3_7) {
-                ** GOTO lbl28
+
             }
             var3_6 = new StringBuilder("exception while fetching hoaid: ");
             var3_6.append(var4_5.getMessage());
             var3_6 = var3_6.toString();
             var3_6 = var4_4 = new c(IdentifierStatus.IDENTIFIER_PROVIDER_UNAVAILABLE, null, (String)var3_6);
             var5_11 = this.a;
-            ** GOTO lbl34
+
             catch (Throwable var3_8) {}
             {
                 break block13;
 lbl28:
-                // 1 sources
 
                 var3_6 = var4_4 = var3_7.getMessage();
                 if (var4_4 == null) {
@@ -83,7 +82,6 @@ lbl28:
             }
             var5_11 = this.a;
 lbl34:
-            // 3 sources
 
             var3_6 = var4_4;
             var5_11.b(var1_1);

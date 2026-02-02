@@ -534,7 +534,6 @@ implements g62 {
                         var5_10 = var8_11 + 1;
                     }
 lbl14:
-                    // 4 sources
 
                     if ((var5_10 = this.a(var7_9, var5_10, var1_1, var3_2)) != -1) ** break block6
                 }
@@ -553,8 +552,6 @@ lbl14:
         }
         var12_4.a(var1_1);
         return;
-lbl-1000:
-        // 1 sources
 
         {
             throw var11_8;

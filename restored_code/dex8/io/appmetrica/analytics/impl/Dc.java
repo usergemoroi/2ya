@@ -44,14 +44,13 @@ implements c {
             }
             catch (SecurityException var1_6) {
                 var1_4 /* !! */  = var2_3 /* !! */ ;
-                ** continue;
+
             }
             catch (SecurityException var1_5) {
                 var1_4 /* !! */  = null;
             }
         }
 lbl15:
-        // 2 sources
 
         while (true) {
             var2_3 /* !! */  = new U((Cn)var4_1.b.apply(var3_2, var1_4 /* !! */ ), var4_1.a(var3_2, null), var4_1.c.a());

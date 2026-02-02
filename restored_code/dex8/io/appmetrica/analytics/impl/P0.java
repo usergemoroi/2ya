@@ -85,7 +85,7 @@ implements bb {
                                 if (var4_4 != null) break block12;
                                 var3_5 = Boolean.TRUE;
                             }
-                            ** GOTO lbl-1000
+
                         }
                         catch (Throwable var1_2) {
                             break block13;
@@ -93,8 +93,7 @@ implements bb {
                     }
                     if (!var3_5.booleanValue()) {
                         this.f.a();
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         this.f.c();
@@ -111,8 +110,7 @@ implements bb {
                     }
                     if (!var2_3.booleanValue()) {
                         this.e.c();
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         this.e.b();

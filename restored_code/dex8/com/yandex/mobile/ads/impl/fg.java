@@ -165,7 +165,6 @@ extends tj {
             try {
                 var3_4 = (int)Math.min(var7_5, var5_6);
 lbl10:
-                // 2 sources
 
                 var9_7 = this.g;
                 var4_8 = m92.a;

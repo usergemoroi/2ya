@@ -237,8 +237,7 @@ iq1 {
                 if ((var3_4 & -2147483648) != 0) {
                     var4_3.f = var3_4 + -2147483648;
                     var2_2 /* !! */  = var4_3;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var2_2 /* !! */  = new mj((lj<Object>)var0, var2_2 /* !! */ );
@@ -252,7 +251,7 @@ iq1 {
                 var0 = var2_2 /* !! */ .b;
                 v.b(var5_5);
                 var2_2 /* !! */  = var5_5;
-                ** GOTO lbl-1000
+
             }
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
         }
@@ -266,8 +265,7 @@ iq1 {
         var2_2 /* !! */  = var5_5;
         if (var5_5 == var4_3) {
             var0 = var4_3;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var4_3 = (rv1)var2_2 /* !! */ ;
@@ -404,8 +402,7 @@ iq1 {
                             kotlinx.coroutines.i.d(q02, null, null, (p)object, 3, null);
                             break block4;
                         }
-                        catch (Throwable throwable2) {
-                            break block5;
+        // Removed invalid catch block
                         }
                     }
                     this.b((f3)object);

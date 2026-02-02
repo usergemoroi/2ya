@@ -77,8 +77,7 @@ implements m72 {
             bq.d d10 = new bq.d((String)var0_12);
             return var0_15;
         }
-        catch (ClassCastException classCastException) {
-            Object var0_17 = var4_21;
+        // Removed invalid catch block
             return var0_15;
         }
     }

@@ -203,8 +203,7 @@ implements zq {
                                     object3 = t22.a((String)object3);
                                     break block13;
                                 }
-                                catch (Throwable throwable2) {
-                                    break block14;
+        // Removed invalid catch block
                                 }
                             }
                             object3 = null;
@@ -389,8 +388,7 @@ implements zq {
                             ks02.b(string2, ((Boolean)object5).booleanValue());
                             break block21;
                         }
-                        catch (Throwable throwable2) {
-                            break block22;
+        // Removed invalid catch block
                         }
                     }
                     ks02.a(string2);

@@ -473,7 +473,6 @@ implements VarioqubApi {
             {
                 var1_7.onSuccess();
 lbl267:
-                // 2 sources
 
                 var7_10.e.getClass();
                 var7_10.g = System.currentTimeMillis();

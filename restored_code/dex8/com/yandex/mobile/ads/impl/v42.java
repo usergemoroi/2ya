@@ -369,8 +369,7 @@ extends ei0 {
         }
         a14.b(this.d);
         return;
-        catch (NumberFormatException | StringIndexOutOfBoundsException runtimeException) {
-            return;
+        // Removed invalid catch block
         }
     }
 

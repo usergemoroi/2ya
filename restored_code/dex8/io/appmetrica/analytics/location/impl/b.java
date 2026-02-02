@@ -52,29 +52,26 @@ implements LastKnownLocationExtractor {
             if (!var1_7) break block7;
             try {
                 var2_1 = new GplLibraryWrapper(var3_4, var4_5, var5_6.getLooper(), (Executor)var5_6, TimeUnit.SECONDS.toMillis(1L));
-                ** GOTO lbl18
+
             }
             catch (Throwable var2_3) {
-                ** continue;
+
             }
         }
 lbl15:
-        // 2 sources
 
         while (true) {
             try {
                 var2_1 = new a();
 lbl18:
-                // 2 sources
 
                 var2_1.updateLastKnownLocation();
 lbl19:
-                // 3 sources
 
                 return;
             }
             catch (Throwable var2_2) {
-                ** continue;
+
             }
             break;
         }

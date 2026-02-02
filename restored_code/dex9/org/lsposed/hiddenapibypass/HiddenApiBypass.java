@@ -78,8 +78,7 @@ public final class HiddenApiBypass {
             l7 = unsafe.getLong(Helper$NeverCall.class, l7);
             l4 -= l5;
         }
-        catch (ReflectiveOperationException reflectiveOperationException) {
-            Log.e((String)"HiddenApiBypass", (String)"Initialize error", (Throwable)reflectiveOperationException);
+        // Removed invalid catch block
             throw new ExceptionInInitializerError(reflectiveOperationException);
         }
         j = l4;

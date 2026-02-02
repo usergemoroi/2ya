@@ -678,8 +678,6 @@ extends yt0 {
             }
         }
         return Pair.create((Object)var5_6 /* !! */ , (Object)var4_5);
-lbl-1000:
-        // 1 sources
 
         {
             throw var1_2;
@@ -1372,8 +1370,7 @@ lbl-1000:
                 var1_1 = var2_2.r;
                 if (!(var1_1 != -1 && var1_1 > var4_4.b || (var1_1 = var2_2.s) != -1 && var1_1 > var4_4.c || (var8_10 = var2_2.t) != -1.0f && !(var8_10 <= (float)var4_4.d) || (var1_1 = var2_2.i) != -1 && var1_1 > var4_4.e)) {
                     var9_8 = true;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var9_8 = false;
@@ -1384,8 +1381,7 @@ lbl-1000:
                 var1_1 = var2_2.r;
                 if (!(var1_1 != -1 && var1_1 < var4_4.f || (var1_1 = var2_2.s) != -1 && var1_1 < var4_4.g || (var8_10 = var2_2.t) != -1.0f && !(var8_10 >= (float)var4_4.h) || (var1_1 = var2_2.i) != -1 && var1_1 < var4_4.i)) {
                     var7_7 = true;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var7_7 = false;

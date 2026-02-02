@@ -48,8 +48,7 @@ implements b {
     public final c a(@NotNull Context object) {
         c c11 = this.b((Context)object);
         this.a.b((Context)object);
-        catch (Throwable throwable) {
-            IdentifierStatus identifierStatus = IdentifierStatus.UNKNOWN;
+        // Removed invalid catch block
             Object object2 = new StringBuilder("exception while fetching yandex adv_id: ");
             ((StringBuilder)object2).append(throwable.getMessage());
             object2 = new c(identifierStatus, null, ((StringBuilder)object2).toString(), 2);

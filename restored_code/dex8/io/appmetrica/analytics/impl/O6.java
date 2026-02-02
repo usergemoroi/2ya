@@ -242,8 +242,7 @@ Parcelable {
                 var3_4.getClass();
                 if (var0 == null) ** GOTO lbl-1000
                 switch (var0.ordinal()) {
-                    default: lbl-1000:
-                    // 2 sources
+                    default: // 2 sources
 
                     {
                         var0 = null;
@@ -284,8 +283,7 @@ Parcelable {
             var0 = new JSONArray(var4_5);
             var0 = var1_2 /* !! */ .put("available_providers", var0).toString();
         }
-        catch (Throwable var0_1) {
-            var0 = "";
+        // Removed invalid catch block
         }
         var1_2 /* !! */  = Bb.c;
         var5_6.d = 12288;

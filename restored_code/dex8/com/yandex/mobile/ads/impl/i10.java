@@ -308,21 +308,7 @@ implements em {
                     this.b();
                     break block13;
                 }
-                catch (IOException iOException) {}
-                {
-                    boolean bl3;
-                    if (!((File)object2).delete()) {
-                        ((File)object2).getAbsolutePath();
-                        bl3 = ej2.a;
-                        n13 = op0.b;
-                    }
-                    if ((this.c).a.exists()) break block13;
-                    bl3 = ej2.a;
-                    n13 = op0.b;
-                    this.a.clear();
-                    this.b = 0L;
-                    this.a();
-                }
+        // Removed invalid catch block
             }
             return;
             throw throwable2;
@@ -385,8 +371,7 @@ implements em {
                     var7_3 = this.a.get(var1_1);
                     if (var7_3 != null) break block13;
                     {
-                        catch (Throwable var1_2) {}
-                    }
+        // Removed invalid catch block
                     return null;
                 }
                 var8_6 = (this.c).a;
@@ -397,12 +382,9 @@ implements em {
                 var6_9.append(String.valueOf(var1_1.substring(var2_7).hashCode()));
                 var5_5 = new File((File)var8_6, var6_9.toString());
                 ** try [egrp 2[TRYBLOCK] [2 : 107->148)] { 
-lbl-1000:
-                // 1 sources
 
                 {
-                    catch (IOException var6_10) {
-                        var5_5.getAbsolutePath();
+        // Removed invalid catch block
                         var4_12 = ej2.a;
                         var2_7 = op0.b;
                         this.b(var1_1);
@@ -410,13 +392,10 @@ lbl-1000:
                     }
                 }
 lbl26:
-                // 1 sources
 
-                ** GOTO lbl28
                 {
                     break block14;
 lbl28:
-                    // 1 sources
 
                     var9_11 = new FileInputStream(var5_5);
                     var8_6 = new BufferedInputStream(var9_11);
@@ -432,14 +411,12 @@ lbl28:
                         }
                     }
                     catch (Throwable var7_4) {
-                        ** GOTO lbl49
+
                     }
                     {
                         var6_9.close();
                         return null;
                     }
-lbl-1000:
-                    // 1 sources
 
                     {
                         var7_3 = var7_3.a(i10.a(var6_9, com.yandex.mobile.ads.impl.i10$c.a(var6_9) - com.yandex.mobile.ads.impl.i10$c.c(var6_9)));
@@ -448,7 +425,6 @@ lbl-1000:
                         var6_9.close();
                         return var7_3;
 lbl49:
-                        // 1 sources
 
                         var6_9.close();
                         throw var7_4;

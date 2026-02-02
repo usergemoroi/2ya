@@ -158,8 +158,7 @@ ii2.a {
         this.c.getClass();
         if (ii2.a((View)this) && this.d.b()) {
             var2_2 = true;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var2_2 = false;

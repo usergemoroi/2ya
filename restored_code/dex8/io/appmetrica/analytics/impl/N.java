@@ -210,7 +210,6 @@ implements ActivityLifecycleRegistry {
                 block8: {
                     if (var2_3 /* !! */ .length != 0) break block8;
 lbl6:
-                    // 2 sources
 
                     var5_4 = ActivityEvent.values();
                 }
@@ -247,7 +246,6 @@ lbl6:
                 block10: {
                     if (var2_3 /* !! */ .length != 0) break block10;
 lbl6:
-                    // 2 sources
 
                     var5_4 = ActivityEvent.values();
                 }

@@ -124,7 +124,6 @@ extends wy1 {
                     this.q = Float.parseFloat(var3_4[1].trim());
                     continue;
 lbl14:
-                    // 1 sources
 
                     this.p = Float.parseFloat(var3_4[1].trim());
                 }
@@ -156,8 +155,7 @@ lbl14:
             if (!"[Events]".equalsIgnoreCase(var2_2)) continue;
         }
         return;
-        catch (NumberFormatException var2_3) {
-        }
+        // Removed invalid catch block
     }
 
     @Override

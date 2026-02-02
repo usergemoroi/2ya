@@ -100,7 +100,6 @@ implements w72 {
                     } else {
                         throw new IllegalStateException();
 lbl21:
-                        // 1 sources
 
                         zs0.d((String)"PesReader", (String)"Unexpected start indicator reading extended header");
                     }
@@ -142,7 +141,6 @@ lbl21:
                     } else {
                         throw new IllegalStateException();
 lbl55:
-                        // 1 sources
 
                         if (this.a(Math.min(10, this.i), var2_2, this.b.a) && this.a(this.i, var2_2, null)) {
                             this.b.c(var1_1);
@@ -183,7 +181,6 @@ lbl55:
                             continue;
                         }
 lbl90:
-                        // 3 sources
 
                         while (true) {
                             var4_3 = var1_1;
@@ -194,7 +191,6 @@ lbl90:
                             break;
                         }
 lbl96:
-                        // 1 sources
 
                         if (this.a(9, var2_2, this.b.a)) {
                             this.b.c(var1_1);
@@ -235,9 +231,8 @@ lbl96:
                             var4_3 = var7_6;
                         } else {
                             var3_5 = -1;
-                            ** continue;
+
 lbl134:
-                            // 1 sources
 
                             var7_6 = var3_5;
                             var2_2.f(var2_2.a());

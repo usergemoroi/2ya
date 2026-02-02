@@ -201,13 +201,11 @@ implements p<q0, d<? super jk1>, Object> {
                                 kz02 = object4;
                                 object4 = object5;
                             }
-                            catch (Throwable throwable) {
-                                object2 = object;
+        // Removed invalid catch block
                                 object = throwable;
                                 break block15;
                             }
-                            catch (Exception exception3) {
-                                // empty catch block
+        // Removed invalid catch block
                                 break block17;
                             }
                         }

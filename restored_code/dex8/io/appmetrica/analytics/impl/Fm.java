@@ -162,23 +162,7 @@ public final class fm {
                     if (!this.g && !fm.a((IdentifiersResult)object2) && (!((IdentifiersResult)object2).id.isEmpty() || (bl2 = ro.a(this.e)))) continue;
                 }
             }
-            catch (Throwable throwable) {}
-            {
-                block15: {
-                    block14: {
-                        return false;
-                    }
-                    bl2 = "appmetrica_lib_ssl_enabled".equals(string2);
-                    if (!bl2) break block15;
-                    if (object2 != null) continue;
-                    return false;
-                }
-                if (object2 != null) {
-                    bl2 = TextUtils.isEmpty((CharSequence)((IdentifiersResult)object2).id);
-                    if (!bl2) continue;
-                }
-                return false;
-            }
+        // Removed invalid catch block
             return true;
             throw throwable;
         }

@@ -180,7 +180,6 @@ extends uy1 {
                             break block45;
                         }
 lbl83:
-                        // 1 sources
 
                         if (var14_8 == 84) {
                             var4_4 /* !! */  = di0.a(var5_13, var1_1, di0.a(var0, var14_8, var15_9, var16_10, var10_11));
@@ -220,17 +219,14 @@ lbl83:
                     var1_1.e(var17_16);
                     return var4_4 /* !! */ ;
 lbl131:
-                    // 1 sources
 
                     zs0.d((String)"Id3Decoder", (String)"Skipping unsupported compressed or encrypted frame");
                     var1_1.e(var17_16);
                     return null;
-                    catch (UnsupportedEncodingException var4_7) {}
-                }
+        // Removed invalid catch block
                 zs0.d((String)"Id3Decoder", (String)"Unsupported character encoding");
             }
-            catch (Throwable var4_5) {
-                break block46;
+        // Removed invalid catch block
             }
             var1_1.e(var17_16);
             return null;
@@ -398,8 +394,6 @@ lbl131:
                             var4_5 = (var6_7 & 32) != 0 ? 1 : 0;
                             var5_6 = var4_5;
                             ** if ((var6_7 & 128) == 0) goto lbl-1000
-lbl-1000:
-                            // 1 sources
 
                             {
                                 var5_6 = var7_8;
@@ -407,8 +401,6 @@ lbl-1000:
                             }
                         }
                         break block20;
-lbl-1000:
-                        // 2 sources
 
                         {
                             var6_7 = 0;
@@ -624,7 +616,6 @@ lbl-1000:
                         if (var1_1 < 10) {
                             zs0.d((String)"Id3Decoder", (String)"Data too short to be an ID3 tag");
 lbl8:
-                            // 4 sources
 
                             while (true) {
                                 var2_2 /* !! */  = null;
@@ -635,7 +626,7 @@ lbl8:
                         var1_1 = var11_4.w();
                         if (var1_1 == 0x494433) break block15;
                         zs0.d((String)"Id3Decoder", (String)"Unexpected first three bytes of ID3 tag header: 0x".concat(String.format("%06X", new Object[]{var1_1})));
-                        ** GOTO lbl8
+
                     }
                     var6_8 = var11_4.t();
                     var11_4.f(1);
@@ -645,7 +636,7 @@ lbl8:
                     var1_1 = var4_7;
                     if ((var7_9 & 64) == 0) ** GOTO lbl43
                     zs0.d((String)"Id3Decoder", (String)"Skipped ID3 tag with majorVersion=2 and undefined compression scheme");
-                    ** GOTO lbl8
+
                 }
                 if (var6_8 != 3) break block17;
                 var1_1 = var4_7;
@@ -654,7 +645,7 @@ lbl8:
                     var11_4.f(var1_1);
                     var1_1 = var4_7 - (var1_1 + 4);
                 }
-                ** GOTO lbl43
+
             }
             if (var6_8 == 4) {
                 var3_10 = var4_7;
@@ -668,13 +659,12 @@ lbl8:
                     var1_1 = var3_10 - 10;
                 }
 lbl43:
-                // 5 sources
 
                 var8_11 = var6_8 < 4 && (var7_9 & 128) != 0;
                 var2_2 /* !! */  = (byte[])new /* Unavailable Anonymous Inner Class!! */;
             } else {
                 sr0.a((String)"Skipped ID3 tag with unsupported majorVersion=", (int)var6_8, (String)"Id3Decoder");
-                ** continue;
+
             }
         }
         if (var2_2 /* !! */  == null) {

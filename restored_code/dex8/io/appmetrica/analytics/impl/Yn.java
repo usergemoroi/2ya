@@ -119,12 +119,10 @@ implements TempCacheStorage {
             var3_6 = var4_5 = this.a.a();
             if (var4_5 == null) break block6;
             var4_5.delete(this.b, var1_1, var2_4);
-            catch (Throwable var1_2) {
-                var3_6 = null;
+        // Removed invalid catch block
             }
         }
 lbl10:
-        // 2 sources
 
         while (true) {
             this.a.a(var3_6);
@@ -132,7 +130,7 @@ lbl10:
         }
         finally {
             var3_6 = var4_5;
-            ** continue;
+
         }
     }
 

@@ -80,7 +80,6 @@ implements t70 {
         } else {
             var12_5.a((int)(var10_6 - var8_3));
 lbl12:
-            // 2 sources
 
             var3_7 = 0;
         }
@@ -179,11 +178,10 @@ lbl12:
                         if (!var1_1.a(var6_13)) {
                             continue;
                         }
-                        ** GOTO lbl100
+
                     }
                     var1_1 = null;
 lbl100:
-                    // 2 sources
 
                     if (var1_1 == null) continue;
                     if ((var4_4 & 16) == 16) {
@@ -283,21 +281,18 @@ lbl100:
                     if (var1_1 != null) ** GOTO lbl195
                     zs0.d((String)"AviExtractor", (String)"Missing Stream Header");
 lbl192:
-                    // 3 sources
 
                     while (true) {
                         var1_1 = null;
-                        ** GOTO lbl216
+
                         break;
                     }
 lbl195:
-                    // 1 sources
 
                     if (var13_11 != null) ** GOTO lbl198
                     zs0.d((String)"AviExtractor", (String)"Missing Stream Format");
-                    ** GOTO lbl192
+
 lbl198:
-                    // 1 sources
 
                     var8_3 = m92.a((long)var1_1.d, (long)((long)var1_1.b * 1000000L), (long)var1_1.c);
                     var15_15 = var13_11.a;
@@ -311,13 +306,12 @@ lbl198:
                         var13_11.c(var14_14 /* !! */ .a);
                     }
                     if ((var4_4 = w01.c((String)var15_15.m)) == 1 || var4_4 == 2) ** break;
-                    ** continue;
+
                     var14_14 /* !! */  = this.d.a(var3_7, var4_4);
                     var14_14 /* !! */ .a(var13_11.a());
                     var1_1 = new xn(var3_7, var4_4, var8_3, var1_1.d, (g62)var14_14 /* !! */ );
                     this.f = var8_3;
 lbl216:
-                    // 2 sources
 
                     if (var1_1 != null) {
                         var2_2.add(var1_1);
@@ -329,11 +323,9 @@ lbl216:
                 this.c = 3;
                 return 0;
 lbl225:
-                // 1 sources
 
                 throw fg1.a((String)"AviHeader not found", null);
 lbl226:
-                // 1 sources
 
                 var2_2 = new StringBuilder("Unexpected header list type ");
                 var2_2.append(var1_1.getType());

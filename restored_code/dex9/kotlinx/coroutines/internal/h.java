@@ -194,10 +194,8 @@ d<T> {
         }
         return;
         {
-            catch (Throwable throwable222222) {}
-        }
-        catch (Throwable throwable3) {
-            kotlinx.coroutines.internal.k0.f((g)g4, (Object)object2);
+        // Removed invalid catch block
+        // Removed invalid catch block
             throw throwable3;
         }
         try {

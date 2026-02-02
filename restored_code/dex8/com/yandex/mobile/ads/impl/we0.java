@@ -159,7 +159,6 @@ implements u40 {
                                         var6_7 = var15_14 * 121;
                                         var7_8 = var14_13 * 100;
 lbl48:
-                                        // 3 sources
 
                                         while (true) {
                                             var6_7 /= (float)var7_8;
@@ -169,11 +168,11 @@ lbl48:
                                     }
                                     var6_7 = var15_14 * 16;
                                     var7_8 = var14_13 * 9;
-                                    ** GOTO lbl48
+
                                 }
                                 var6_7 = var15_14 * 4;
                                 var7_8 = var14_13 * 3;
-                                ** continue;
+
                             }
                             var23_20 = new /* Unavailable Anonymous Inner Class!! */.b((String)var22_19).e("video/mpeg2").o(var14_13).f(var15_14).b(var6_7).a(Collections.singletonList(var20_17 /* !! */ )).a();
                             var7_8 = (var20_17 /* !! */ [7] & 15) - 1;
@@ -188,8 +187,7 @@ lbl48:
                                     var2_5 = var4_6 * (((double)var7_8 + 1.0) / (double)(var14_13 + 1));
                                 }
                                 var16_15 = (long)(1000000.0 / var2_5);
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var16_15 = 0L;

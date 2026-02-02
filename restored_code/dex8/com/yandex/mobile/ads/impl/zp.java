@@ -63,8 +63,7 @@ implements m72 {
             r r14 = new r();
             throw r14;
         }
-        catch (ClassCastException classCastException) {
-            Object var0_11 = var3_14;
+        // Removed invalid catch block
             return var0_9;
         }
     }

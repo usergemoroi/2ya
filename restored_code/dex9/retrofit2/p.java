@@ -178,12 +178,11 @@ implements retrofit2.b<T> {
             var3_6 = var5_4;
             if (var5_4 != null) ** GOTO lbl25
             {
-                catch (Throwable var1_2) {}
-            }
+        // Removed invalid catch block
             try {
                 this.h = var2_5 = this.b();
                 var3_6 = var5_4;
-                ** GOTO lbl25
+
             }
             catch (Throwable var3_7) {
                 block8: {
@@ -191,7 +190,6 @@ implements retrofit2.b<T> {
                     this.i = var3_7;
                     var2_5 = var4_3;
 lbl25:
-                    // 4 sources
 
                     // MONITOREXIT @DISABLED, blocks:[2, 4, 5] lbl24 : MonitorExitStatement: MONITOREXIT : this
                     if (var3_6 == null) break block8;
@@ -243,7 +241,6 @@ lbl25:
                 });
                 return;
 lbl35:
-                // 2 sources
 
                 var1_1 /* !! */  = new d<T>("Already executed.");
                 throw var1_1 /* !! */ ;

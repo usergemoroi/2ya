@@ -1779,12 +1779,10 @@ ByteChannel {
                                         var4_18 = var5_19;
                                     }
 lbl37:
-                                    // 5 sources
 
                                     while (true) {
                                         var5_19 = var1_1 /* !! */ .b;
 lbl39:
-                                        // 2 sources
 
                                         while (true) {
                                             var2_2 = (long)(var4_18 - var5_19) + var2_2;
@@ -1814,7 +1812,7 @@ lbl39:
                                         while (true) {
                                             var5_19 = var16_6.b;
                                             var2_2 = var10_3;
-                                            ** continue;
+
                                             break;
                                         }
                                     }
@@ -1853,7 +1851,7 @@ lbl39:
                             var2_2 = var10_3;
                             var1_1 /* !! */  = var16_6;
                             var4_18 = var5_19;
-                            ** continue;
+
                         }
                         var16_6 = var16_6.f;
                         y.g((Object)var16_6);

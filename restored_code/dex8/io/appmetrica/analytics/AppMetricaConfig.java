@@ -203,7 +203,6 @@ public class AppMetricaConfig {
                 var0.withErrorEnvironmentValue((String)var3_4.getKey(), (String)var3_4.getValue());
             }
 lbl41:
-            // 2 sources
 
             if (var2_3.has("first_activation_as_update")) {
                 var0.handleFirstActivationAsUpdate(var2_3.optBoolean("first_activation_as_update"));
@@ -214,7 +213,6 @@ lbl41:
             if (!(var1_6 = var2_3.has("user_profile_id"))) ** GOTO lbl51
             var0.withUserProfileID(var2_3.optString("user_profile_id", null));
 lbl51:
-            // 2 sources
 
             if (var2_3.has("revenue_auto_tracking_enabled")) {
                 var0.withRevenueAutoTrackingEnabled(var2_3.optBoolean("revenue_auto_tracking_enabled"));
@@ -243,7 +241,6 @@ lbl51:
                     var0.withAppEnvironmentValue((String)var4_5.getKey(), (String)var4_5.getValue());
                 }
 lbl78:
-                // 2 sources
 
                 if (var2_3.has("anr_monitoring")) {
                     var0.withAnrMonitoring(var2_3.optBoolean("anr_monitoring"));
@@ -258,24 +255,20 @@ lbl78:
                     var2_3.optJSONObject("additional_config");
                 }
                 var0 = var0.build();
-                ** GOTO lbl95
+
             }
-            catch (Throwable var0_2) {
-                ** continue;
+        // Removed invalid catch block
             }
         }
 lbl93:
-        // 3 sources
 
         while (true) {
             var0 = null;
 lbl95:
-            // 2 sources
 
             return var0;
         }
-        catch (Throwable var0_1) {}
-        ** GOTO lbl93
+        // Removed invalid catch block
     }
 
     @NonNull

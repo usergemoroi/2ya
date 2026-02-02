@@ -610,16 +610,14 @@ ei1 {
                                                                                     var3_3 = 6002;
                                                                                     break;
                                                                                 }
-                                                                                case 15: lbl-1000:
-                                                                                // 2 sources
+                                                                                case 15: // 2 sources
 
                                                                                 {
                                                                                     var3_3 = 6003;
                                                                                     break;
                                                                                 }
                                                                                 case 16: 
-                                                                                case 18: lbl-1000:
-                                                                                // 3 sources
+                                                                                case 18: // 3 sources
 
                                                                                 {
                                                                                     var3_3 = 6005;
@@ -730,21 +728,18 @@ ei1 {
                             var3_3 = 6002;
                             break;
                         }
-                        case 15: lbl-1000:
-                        // 2 sources
+                        case 15: // 2 sources
 
                         {
                             var3_3 = 6003;
                             break;
                         }
 lbl200:
-                        // 1 sources
 
                         var3_3 = var6_12;
                         break;
                         case 16: 
-                        case 18: lbl-1000:
-                        // 3 sources
+                        case 18: // 3 sources
 
                         {
                             var3_3 = 6005;

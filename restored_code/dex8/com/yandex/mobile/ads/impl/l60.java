@@ -338,8 +338,7 @@ implements h60 {
                 n10 = m92.a;
                 object2 = n10 < 31 ? new mi1() : com.yandex.mobile.ads.impl.l60$a.a((Context)context, (l60)this, (boolean)b10.q);
             }
-            catch (Throwable throwable2) {
-                break block2;
+        // Removed invalid catch block
             }
             this.i = n602 = new n60(cp1Array, l622, (m62)xy22, (xr0)b10.f.get(), fi3, 0, xc2, fx12, b10.n, b10.o, looper, b422, object, (mi1)object2);
             this.Q = 1.0f;
@@ -757,22 +756,20 @@ implements h60 {
                                 if (var22_9.a((int)var22_9.a((Object)var24_7.b.a, (l52.b)this.l).d, (l52.d)this.a, (long)0L).b.equals(var20_10.a((int)var20_10.a((Object)var1_1.b.a, (l52.b)this.l).d, (l52.d)this.a, (long)0L).b)) ** GOTO lbl30
                                 if (!var4_4 || var5_5 != 0) break block44;
                                 var8_13 = 1;
-                                ** GOTO lbl27
+
                             }
                             if (!var4_4 || var5_5 != 1) break block45;
                             var8_13 = 2;
-                            ** GOTO lbl27
+
                         }
                         if (var18_8 ^ true) {
                             var8_13 = 3;
 lbl27:
-                            // 3 sources
 
                             var20_10 = new Pair((Object)Boolean.TRUE, (Object)var8_13);
                         } else {
                             throw new IllegalStateException();
 lbl30:
-                            // 1 sources
 
                             var20_10 = var4_4 != false && var5_5 == 0 && var24_7.b.d < var1_1.b.d ? new Pair((Object)Boolean.TRUE, (Object)0) : new Pair((Object)Boolean.FALSE, var21_12);
                         }
@@ -849,7 +846,6 @@ lbl30:
             } else if (var24_7.b.e != -1) {
                 var14_22 = l60.b(this.W);
 lbl99:
-                // 2 sources
 
                 while (true) {
                     var16_23 = var14_22;
@@ -859,15 +855,13 @@ lbl99:
                 var16_23 = var25_19 /* !! */ .f;
                 var14_22 = var25_19 /* !! */ .e;
 lbl104:
-                // 2 sources
 
                 while (true) {
                     var14_22 = var16_23 + var14_22;
-                    ** continue;
+
                     break;
                 }
 lbl107:
-                // 1 sources
 
                 if (var24_7.b.a()) {
                     var14_22 = var24_7.r;
@@ -875,7 +869,7 @@ lbl107:
                 } else {
                     var16_23 = var25_19 /* !! */ .f;
                     var14_22 = var24_7.r;
-                    ** continue;
+
                 }
             }
             var14_22 = m92.b((long)var14_22);

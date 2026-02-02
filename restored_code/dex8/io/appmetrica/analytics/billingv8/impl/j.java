@@ -126,8 +126,7 @@ extends SafeRunnable {
                             var9_2 = "{}";
                         }
                         var8_3 /* !! */  = new ProductInfo((ProductType)var8_3 /* !! */ , var19_17, var1_9, 0L, "", 0L, null, 1, null, (String)var10_5, var18_16, var4_12, var2_10, (String)var9_2);
-                    } else lbl-1000:
-                    // 3 sources
+                    } else // 3 sources
 
                     {
                         var8_3 /* !! */  = null;

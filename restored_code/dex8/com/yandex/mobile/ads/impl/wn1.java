@@ -72,8 +72,7 @@ extends tj {
                     if (!TextUtils.equals((CharSequence)"android.resource", (CharSequence)var9_6.getScheme()) || var9_6.getPathSegments().size() != 1) ** GOTO lbl-1000
                     var7_7 = var9_6.getLastPathSegment();
                     var7_7.getClass();
-                    if (!var7_7.matches("\\d+")) lbl-1000:
-                    // 2 sources
+                    if (!var7_7.matches("\\d+")) // 2 sources
 
                     {
                         if (TextUtils.equals((CharSequence)"android.resource", (CharSequence)var9_6.getScheme()) == false) throw new a(1004, "URI must either use scheme rawresource or android.resource", null);
@@ -98,8 +97,7 @@ extends tj {
                         var7_7 = var10_10.toString();
                         var2_11 = this.e.getIdentifier((String)var7_7, "raw", this.f);
                         if (var2_11 == 0) throw new a(2005, "Resource not found.", null);
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         try {
@@ -170,14 +168,11 @@ extends tj {
             var3_12 = var1_1 /* !! */ .g;
             if (var3_12 == -1L) return this.j;
             return var3_12;
-lbl-1000:
-            // 1 sources
 
             {
                 var1_1 /* !! */  = new mv(2008);
                 throw var1_1 /* !! */ ;
 lbl93:
-                // 1 sources
 
                 var1_1 /* !! */  = new a(2008, null, null);
                 throw var1_1 /* !! */ ;
@@ -222,14 +217,9 @@ lbl93:
                             this.e();
                         }
                         return;
-                        catch (Throwable throwable3222222) {
-                            break block18;
+        // Removed invalid catch block
                         }
-                        catch (IOException iOException2) {}
-                        {
-                            a a14 = new a(2000, null, iOException2);
-                            throw a14;
-                        }
+        // Removed invalid catch block
                     }
                     this.i = null;
                     try {
@@ -299,7 +289,6 @@ lbl93:
             try {
                 var3_4 = (int)Math.min(var5_5, var7_6);
 lbl10:
-                // 2 sources
 
                 var9_7 = this.i;
                 var4_8 = m92.a;

@@ -485,7 +485,6 @@ implements t70 {
                                                                         var15_7 /* !! */  = var14_2;
                                                                     }
 lbl73:
-                                                                    // 9 sources
 
                                                                     while (true) {
                                                                         var18_17 = var17_16;
@@ -499,13 +498,13 @@ lbl73:
                                                         }
                                                         var2_3 = 129;
                                                         var15_7 /* !! */  = var14_2;
-                                                        ** GOTO lbl73
+
                                                     }
                                                     if (var4_9 != 122) break block41;
                                                 }
                                                 var2_3 = 135;
                                                 var15_7 /* !! */  = var14_2;
-                                                ** GOTO lbl73
+
                                             }
                                             if (var4_9 != 127) break block42;
                                             var15_7 /* !! */  = var14_2;
@@ -513,16 +512,16 @@ lbl73:
                                         }
                                         var2_3 = 172;
                                         var15_7 /* !! */  = var14_2;
-                                        ** GOTO lbl73
+
                                     }
                                     if (var4_9 != 123) break block43;
                                     var2_3 = 138;
                                     var15_7 /* !! */  = var14_2;
-                                    ** GOTO lbl73
+
                                 }
                                 if (var4_9 == 10) {
                                     var15_7 /* !! */  = var1_1 /* !! */ .a(3, vn.c).trim();
-                                    ** continue;
+
                                 }
                                 if (var4_9 == 89) {
                                     var18_17 = new ArrayList<w72.a>();

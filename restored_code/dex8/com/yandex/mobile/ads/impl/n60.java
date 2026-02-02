@@ -582,7 +582,6 @@ ni1.a {
                                                             var3_6 = var1_1.a(var6_7);
                                                             var6_7 = true;
 lbl24:
-                                                            // 5 sources
 
                                                             while (true) {
                                                                 var11_25 = var9_24;
@@ -612,11 +611,10 @@ lbl24:
                                                     if (!var24_3.a.c()) break block55;
                                                     var3_6 = var1_1.a(var6_7);
 lbl46:
-                                                    // 2 sources
 
                                                     while (true) {
                                                         var6_7 = false;
-                                                        ** GOTO lbl24
+
                                                         break;
                                                     }
                                                 }
@@ -625,15 +623,15 @@ lbl46:
                                                 if (var27_4 != null) break block57;
                                                 var3_6 = var1_1.a(var6_7);
                                                 var6_7 = true;
-                                                ** GOTO lbl24
+
                                             }
                                             var3_6 = var1_1.a((Object)var27_4, (l52.b)var25_9).d;
                                             var6_7 = false;
-                                            ** GOTO lbl24
+
                                         }
                                         if (var9_24 == -9223372036854775807L) {
                                             var3_6 = var1_1.a((Object)var21_13, (l52.b)var25_9).d;
-                                            ** continue;
+
                                         }
                                         if (var4_23 != 0) {
                                             var27_4 = var24_3.a;
@@ -653,7 +651,7 @@ lbl46:
                                         } else {
                                             var3_6 = -1;
                                             var6_7 = false;
-                                            ** continue;
+
                                         }
                                     }
                                     if (var3_6 != -1) {
@@ -738,7 +736,6 @@ lbl46:
                         }
                         ** try [egrp 6[TRYBLOCK] [6 : 1125->1328)] { 
 lbl159:
-                        // 1 sources
 
                         if (!var21_13.a(var1_1, var13_28, var19_30)) {
                             this.b(false);
@@ -747,7 +744,6 @@ lbl159:
                         break block51;
                     }
 lbl163:
-                    // 1 sources
 
                     catch (Throwable var21_18) {
                         break block49;
@@ -881,10 +877,9 @@ lbl163:
                             if (!(var13_5 /* !! */  = this.t.a(this.y.a, (Object)var13_5 /* !! */ , var9_11)).a()) break block21;
                             this.y.a.a(var13_5 /* !! */ .a, this.m);
                             var9_11 = this.m.d(var13_5 /* !! */ .b) == var13_5 /* !! */ .c ? this.m.b() : 0L;
-                            ** GOTO lbl-1000
+
                         }
-                        if (var1_1.c == -9223372036854775807L) lbl-1000:
-                        // 2 sources
+                        if (var1_1.c == -9223372036854775807L) // 2 sources
 
                         {
                             var11_12 = var9_11;
@@ -1157,8 +1152,7 @@ lbl163:
         var19_14 = var19_14.a;
         if (!var19_14.c() && !var19_14.a((Object)var18_15.a, (l52.b)var16_6 /* !! */ ).g) {
             var9_16 = this.y.r;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var9_16 = this.y.c;
@@ -1178,8 +1172,7 @@ lbl163:
             var9_16 = var13_18;
             var7_13 = var11_17;
             var15_10 /* !! */  = var16_6 /* !! */ ;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var5_9 = 0;
@@ -1407,8 +1400,7 @@ lbl163:
                                                 var15_11 = var14_10.f.a;
                                                 if (var15_11.b == -1 && var13_9.e != var15_11.e) {
                                                     var1_2 = 1;
-                                                } else lbl-1000:
-                                                // 3 sources
+                                                } else // 3 sources
 
                                                 {
                                                     var1_2 = 0;
@@ -1542,8 +1534,7 @@ lbl163:
                 } else if (this.r.b() - this.Q >= 4000L) {
                     throw new IllegalStateException("Playback stuck buffering and not loading");
                 }
-            } else lbl-1000:
-            // 2 sources
+            } else // 2 sources
 
             {
                 this.Q = -9223372036854775807L;
@@ -1746,8 +1737,7 @@ lbl163:
         var5_2 = var6_1.d;
         var3_3 = 0L;
         var1_4 = var5_2 == false ? 0L : var6_1.a.getNextLoadPositionUs();
-        if (var1_4 == -9223372036854775808L) lbl-1000:
-        // 2 sources
+        if (var1_4 == -9223372036854775808L) // 2 sources
 
         {
             var5_2 = false;
@@ -2159,23 +2149,17 @@ lbl163:
                 }
                 break block47;
             }
-            catch (RuntimeException runtimeException2) {}
-            if (runtimeException2 instanceof IllegalStateException || runtimeException2 instanceof IllegalArgumentException) {
-                n13 = 1004;
-            }
+        // Removed invalid catch block
             object = g60.a(runtimeException2, n13);
             zs0.a((String)"ExoPlayerImplInternal", (String)"Playback error", (Throwable)object);
             this.a(true, false);
             this.y = this.y.a((g60)object);
             break block47;
-            catch (IOException iOException2) {}
-            this.a(iOException2, 2000);
+        // Removed invalid catch block
             break block47;
-            catch (mv mv32) {}
-            this.a((IOException)((Object)mv32), mv32.b);
+        // Removed invalid catch block
             break block47;
-            catch (fg1 fg122) {}
-            int n15 = fg122.c;
+        // Removed invalid catch block
             if (n15 == 1) {
                 n13 = fg122.b ? 3001 : 3003;
             } else if (n15 == 4) {
@@ -2183,11 +2167,9 @@ lbl163:
             }
             this.a((IOException)((Object)fg122), n13);
             break block47;
-            catch (z30.a a142) {}
-            this.a((IOException)((Object)a142), a142.b);
+        // Removed invalid catch block
             break block47;
-            catch (g60 g6022) {}
-            object = g6022;
+        // Removed invalid catch block
             if (g6022.d == 1) {
                 object3 = this.t.f();
                 object = g6022;

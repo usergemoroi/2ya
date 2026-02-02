@@ -116,8 +116,7 @@ implements ip0 {
             this.a.c().getClass();
             return null;
         }
-        if (!this.a.l()) lbl-1000:
-        // 2 sources
+        if (!this.a.l()) // 2 sources
 
         {
             var1_1 = var7_4;

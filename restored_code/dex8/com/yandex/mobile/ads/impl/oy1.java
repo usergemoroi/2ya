@@ -425,7 +425,6 @@ implements dm {
                     this.notifyAll();
                     return;
 lbl43:
-                    // 1 sources
 
                     var1_1 /* !! */  = new IllegalStateException();
                     throw var1_1 /* !! */ ;

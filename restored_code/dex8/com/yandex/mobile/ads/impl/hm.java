@@ -287,10 +287,7 @@ implements lv {
             if ((l10 = pv3.g) == -1L) return this.o;
             return l10;
         }
-        catch (Throwable throwable) {}
-        if (!this.h()) {
-            if (!(throwable instanceof dm.a)) throw throwable;
-        }
+        // Removed invalid catch block
         this.q = true;
         throw throwable;
     }

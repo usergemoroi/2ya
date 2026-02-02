@@ -598,8 +598,7 @@ io.ktor.utils.io.j {
                     if ((var3_4 & -2147483648) != 0) {
                         var4_3.p = var3_4 + -2147483648;
                         var2_2 = var4_3;
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         var2_2 = new kotlin.coroutines.jvm.internal.d(this, var2_2){
@@ -629,14 +628,14 @@ io.ktor.utils.io.j {
                     if (var3_4 == 1) break block7;
                     if (var3_4 != 2) break block8;
                     v.b((Object)var5_5);
-                    ** GOTO lbl45
+
                 }
                 throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
             }
             var4_3 = (io.ktor.utils.io.core.a)var2_2.m;
             var1_1 = (a)var2_2.l;
             v.b((Object)var5_5);
-            ** GOTO lbl37
+
         }
         v.b((Object)var5_5);
         var5_5 = this;
@@ -653,7 +652,6 @@ io.ktor.utils.io.j {
                     return var7_6;
                 }
 lbl37:
-                // 3 sources
 
                 var5_5 = var1_1.joining;
                 if (var5_5 != null && (var5_5 = super.m0((a)var1_1, (io.ktor.utils.io.internal.d)var5_5)) != null) {
@@ -663,12 +661,11 @@ lbl37:
                     if (var5_5.l((io.ktor.utils.io.core.a)var4_3, var2_2) == var7_6) {
                         return var7_6;
                     } else {
-                        ** GOTO lbl45
+
                     }
                 }
                 break block9;
 lbl45:
-                // 3 sources
 
                 return k0.a;
             }
@@ -696,8 +693,7 @@ lbl45:
                     if ((var3_4 & -2147483648) != 0) {
                         var4_3.p = var3_4 + -2147483648;
                         var2_2 = var4_3;
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         var2_2 = new kotlin.coroutines.jvm.internal.d(this, var2_2){
@@ -727,14 +723,14 @@ lbl45:
                     if (var3_4 == 1) break block7;
                     if (var3_4 != 2) break block8;
                     v.b((Object)var5_5);
-                    ** GOTO lbl45
+
                 }
                 throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
             }
             var4_3 = (ByteBuffer)var2_2.m;
             var1_1 = (a)var2_2.l;
             v.b((Object)var5_5);
-            ** GOTO lbl37
+
         }
         v.b((Object)var5_5);
         var5_5 = this;
@@ -751,7 +747,6 @@ lbl45:
                     return var7_6;
                 }
 lbl37:
-                // 3 sources
 
                 var5_5 = var1_1.joining;
                 if (var5_5 != null && (var5_5 = super.m0((a)var1_1, (io.ktor.utils.io.internal.d)var5_5)) != null) {
@@ -761,12 +756,11 @@ lbl37:
                     if (var5_5.a((ByteBuffer)var4_3, var2_2) == var7_6) {
                         return var7_6;
                     } else {
-                        ** GOTO lbl45
+
                     }
                 }
                 break block9;
 lbl45:
-                // 3 sources
 
                 return k0.a;
             }
@@ -793,8 +787,7 @@ lbl45:
                 if ((var5_6 & -2147483648) != 0) {
                     var6_5.r = var5_6 + -2147483648;
                     var4_4 = var6_5;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var4_4 = new kotlin.coroutines.jvm.internal.d(this, var4_4){
@@ -829,7 +822,7 @@ lbl45:
                 var1_1 = (byte[])var4_4.m;
                 var6_5 = (a)var4_4.l;
                 v.b((Object)var7_7);
-                ** GOTO lbl37
+
             }
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
         }
@@ -849,7 +842,6 @@ lbl45:
             var3_3 = var2_2;
             var2_2 = var5_6;
 lbl37:
-            // 2 sources
 
             var5_6 = ((Number)var7_7).intValue();
             var3_3 += var5_6;
@@ -877,8 +869,7 @@ lbl37:
                     if ((var5_6 & -2147483648) != 0) {
                         var6_5.r = var5_6 + -2147483648;
                         var4_4 = var6_5;
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         var4_4 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super m>)var4_4){
@@ -911,7 +902,7 @@ lbl37:
                     if (var5_6 != 2) break block8;
                     v.b((Object)var6_5);
                     var1_1 = var6_5;
-                    ** GOTO lbl52
+
                 }
                 throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
             }
@@ -921,7 +912,7 @@ lbl37:
             var1_1 = (a)var4_4.l;
             v.b((Object)var6_5);
             var6_5 = var7_8;
-            ** GOTO lbl43
+
         }
         v.b((Object)var6_5);
         var7_8 = this;
@@ -940,7 +931,6 @@ lbl37:
                     return var9_7;
                 }
 lbl43:
-                // 3 sources
 
                 var7_8 = var1_1.joining;
                 if (var7_8 != null && (var7_8 = super.m0((a)var1_1, (io.ktor.utils.io.internal.d)var7_8)) != null) {
@@ -951,12 +941,11 @@ lbl43:
                     if (var4_4 == var9_7) {
                         return var9_7;
                     } else {
-                        ** GOTO lbl52
+
                     }
                 }
                 break block9;
 lbl52:
-                // 3 sources
 
                 return var1_1;
             }
@@ -1271,8 +1260,7 @@ lbl52:
                             if ((var3_4 & -2147483648) != 0) {
                                 var4_3 /* !! */ .p = var3_4 + -2147483648;
                                 var2_2 = var4_3 /* !! */ ;
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var2_2 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super e>)var2_2){
@@ -1352,8 +1340,7 @@ lbl52:
                             if ((var5_6 & -2147483648) != 0) {
                                 var6_5.r = var5_6 + -2147483648;
                                 var4_4 = var6_5;
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var4_4 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super d>)var4_4){
@@ -1440,8 +1427,7 @@ lbl52:
                             if ((var4_5 & -2147483648) != 0) {
                                 var5_4.q = var4_5 + -2147483648;
                                 var3_3 = var5_4;
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var3_3 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super f>)var3_3){
@@ -1591,8 +1577,7 @@ lbl52:
                     if ((var3_7 & -2147483648) != 0) {
                         var4_3.p = var3_7 + -2147483648;
                         var2_2 = var4_3;
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         var2_2 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super h>)var2_2){
@@ -1655,7 +1640,7 @@ lbl52:
                         if (var4_3 == var5_8) {
                             return var5_8;
                         } else {
-                            ** GOTO lbl44
+
                         }
                     }
                     break block13;
@@ -1680,8 +1665,7 @@ lbl52:
                 if ((var3_4 & -2147483648) != 0) {
                     var6_3.p = var3_4 + -2147483648;
                     var2_2 = var6_3;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var2_2 = new kotlin.coroutines.jvm.internal.d(this, var2_2){
@@ -1713,7 +1697,7 @@ lbl52:
                 var1_1 = var2_2.m;
                 var6_3 = (a)var2_2.l;
                 v.b((Object)var7_5);
-                ** GOTO lbl48
+
             }
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
         }
@@ -1749,7 +1733,6 @@ lbl52:
             if (var8_8 != var9_6) continue;
             return var9_6;
 lbl48:
-            // 2 sources
 
         } while (((Boolean)var7_5).booleanValue());
         return kotlin.coroutines.jvm.internal.b.a((boolean)false);
@@ -1775,8 +1758,7 @@ lbl48:
                 catch (Throwable var3_5) {
                     break block7;
                 }
-                try lbl-1000:
-                // 2 sources
+                try // 2 sources
 
                 {
                     while (true) {
@@ -1790,7 +1772,7 @@ lbl48:
                 }
                 if ((var1_1 -= (long)a.Y(this, var3_3, 0, 0, 6, null)) > 0L && !this.m()) {
                     var3_3 = io.ktor.utils.io.core.internal.g.d((p)var4_2, (int)1, (io.ktor.utils.io.core.internal.a)var3_3);
-                    ** continue;
+
                 }
                 var4_2.h();
                 return var4_2.c0();
@@ -2107,8 +2089,7 @@ lbl48:
                             if ((var6_17 & -2147483648) != 0) {
                                 var16_16.A = var6_17 + -2147483648;
                                 var5_8 = var16_16;
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var5_8 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super c>)var5_8){
@@ -2160,7 +2141,7 @@ lbl48:
                                 var23_30 = var17_19;
                                 var19_18 = var5_8;
                                 var5_8 = var1_1;
-                                ** GOTO lbl486
+
                             }
                             catch (Throwable var1_2) {
                                 break block67;
@@ -2173,7 +2154,7 @@ lbl48:
                         var22_31 = (a)var5_8.m;
                         var4_7 = var1_1 = (a)var5_8.l;
                         v.b((Object)var19_18);
-                        ** GOTO lbl413
+
                     }
                     var2_6 = var5_8.w;
                     var14_26 = var5_8.x;
@@ -2286,8 +2267,7 @@ lbl48:
                                                 var19_18 = var16_16;
                                                 var16_16 = var25_34;
                                             }
-                                            catch (Throwable var5_10) {
-                                                var17_19 = var20_29;
+        // Removed invalid catch block
                                                 var16_16 = var21_33;
                                                 var2_6 = var8_27;
                                                 var18_11 = var1_1;
@@ -2312,8 +2292,7 @@ lbl48:
                                                         var17_19.v = var8_27;
                                                         var17_19.x = var14_26;
                                                         {
-                                                            catch (Throwable var17_22) {}
-                                                        }
+        // Removed invalid catch block
                                                         var17_19.w = var2_6;
                                                         var17_19.A = 1;
                                                         var26_32 /* !! */  = var18_11;
@@ -2332,10 +2311,8 @@ lbl48:
                                                         var16_16 = var27_39;
                                                         var22_31 = var25_34;
                                                         {
-                                                            catch (Throwable var17_21) {}
-                                                        }
+        // Removed invalid catch block
 lbl178:
-                                                        // 2 sources
 
                                                         try {
                                                             if (var22_31.joining != null) ** GOTO lbl192
@@ -2346,7 +2323,7 @@ lbl178:
                                                             var18_11 = var20_29;
                                                             var16_16 = var25_34;
                                                             var20_29 = var26_32 /* !! */ ;
-                                                            ** GOTO lbl219
+
                                                         }
                                                         catch (Throwable var17_20) {
                                                             block82: {
@@ -2354,7 +2331,6 @@ lbl178:
                                                                 var5_8 = var17_20;
                                                                 break block82;
 lbl192:
-                                                                // 1 sources
 
                                                                 var22_31 = var20_29;
                                                                 var20_29 = var16_16;
@@ -2373,7 +2349,6 @@ lbl192:
                                                                     break block43;
                                                                 }
 lbl207:
-                                                                // 1 sources
 
                                                                 var25_34 = var20_29;
                                                                 var26_32 /* !! */  = var22_31;
@@ -2387,7 +2362,6 @@ lbl207:
                                                                 var23_30 = var26_32 /* !! */ ;
                                                                 var18_11 = var25_34;
 lbl219:
-                                                                // 3 sources
 
                                                                 super.U((ByteBuffer)var24_28, var22_31.f, var6_17);
                                                                 var25_34 = new s0();
@@ -2399,7 +2373,7 @@ lbl219:
                                                                 try {
                                                                     super.n0();
                                                                     var17_19.B0();
-                                                                    ** GOTO lbl264
+
                                                                 }
                                                                 catch (Throwable var17_23) {
                                                                     var19_18 = var5_8;
@@ -2428,7 +2402,6 @@ lbl219:
                                                 super.n0();
                                                 var17_19.B0();
 lbl264:
-                                                // 3 sources
 
                                                 var7_35 = var25_34.c;
                                                 if (var7_35 <= 0) {
@@ -2486,10 +2459,8 @@ lbl264:
                                                 var4_7 = var18_12;
                                                 break block83;
                                                 catch (Throwable var17_24) {}
-                                                ** GOTO lbl-1000
+
                                                 catch (Throwable var17_25) {}
-lbl-1000:
-                                                // 2 sources
 
                                                 {
                                                     var18_11 = var4_7;
@@ -2545,7 +2516,7 @@ lbl-1000:
                                 var15_38 = var14_26;
                                 var22_31 = var5_8;
                                 var21_33 = var1_1;
-                                ** GOTO lbl511
+
                             }
                             var4_7 = var1_1;
                             if (super.O().b.e()) {
@@ -2555,7 +2526,6 @@ lbl-1000:
                                 continue;
                             }
 lbl371:
-                            // 3 sources
 
                             var4_7 = var1_1;
                             var15_38 = var14_26;
@@ -2602,7 +2572,6 @@ lbl371:
                             var5_8 = var20_29;
                         }
 lbl413:
-                        // 2 sources
 
                         var4_7 = var1_1;
                         {
@@ -2627,9 +2596,8 @@ lbl413:
                                 var15_38 = var14_26;
                                 var22_31 = var18_11;
                                 var21_33 = var1_1;
-                                ** GOTO lbl511
+
 lbl432:
-                                // 1 sources
 
                                 var22_31 = var18_11;
                                 var15_38 = var14_26;
@@ -2710,7 +2678,6 @@ lbl432:
             {
                 var18_11.u0(var18_11.Q() + (var17_19.Q() - var2_6));
 lbl504:
-                // 2 sources
 
                 var4_7 = var1_1;
                 var17_19.o0();
@@ -2719,7 +2686,6 @@ lbl504:
                 var4_7 = var1_1;
                 throw var5_8;
 lbl511:
-                // 4 sources
 
                 if (var15_38) {
                     var4_7 = var21_33;

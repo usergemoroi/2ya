@@ -101,7 +101,6 @@ implements t70 {
                                                 var2_2.a((bg1)var12_10);
                                                 var6_6 = var2_2.a(var8_8, (bg1)var12_10);
 lbl22:
-                                                // 4 sources
 
                                                 while (true) {
                                                     var7_7 = true;
@@ -117,7 +116,6 @@ lbl22:
                                             if ((var2_2 = this.p).a((bg1)(var12_10 = this.a((oz)var1_1))) && var2_2.a(var8_8, (bg1)var12_10)) {
                                                 var6_6 = true;
 lbl31:
-                                                // 2 sources
 
                                                 while (true) {
                                                     var7_7 = var6_6;
@@ -126,7 +124,7 @@ lbl31:
                                                 }
                                             }
                                             var6_6 = false;
-                                            ** GOTO lbl22
+
                                         }
                                         if (var3_3 != 18 || this.n) break block21;
                                         var12_10 = this.e;
@@ -139,12 +137,12 @@ lbl31:
                                         this.f.a((ex1)new mk0(var8_8, this.e.b(), this.e.c()));
                                         this.n = true;
                                         var6_6 = var7_7;
-                                        ** continue;
+
                                     }
                                     var3_3 = this.l;
                                     ((oz)var1_1).a(var3_3);
                                     var6_6 = false;
-                                    ** continue;
+
                                 }
                                 if (!this.h && var6_6) {
                                     this.h = true;

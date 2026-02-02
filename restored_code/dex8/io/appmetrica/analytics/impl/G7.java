@@ -103,8 +103,7 @@ public final class g7 {
                 }
                 ro.a((Cursor)object6);
                 break block27;
-                catch (Throwable throwable) {
-                    contentValues = null;
+        // Removed invalid catch block
                 }
             }
             object6 = Kj.a;
@@ -167,8 +166,7 @@ public final class g7 {
             object5 = Bb.c;
             object2 = new l4((String)object3, "", 12290, 0, (PublicLogger)object2);
         }
-        catch (Throwable throwable) {
-            object2 = null;
+        // Removed invalid catch block
         }
         if (object2 == null) return new e7((ArrayList)contentValues, n13);
         if (object.c == null) return new e7((ArrayList)contentValues, n13);

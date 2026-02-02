@@ -1,9 +1,16 @@
 # Build artifacts in итог folder
 # Comment out if you want to commit built files
-итог/*.dex
-итог/*.so
+#итог/*.dex
+#итог/*.so
 итог/build/
 итог/*.log
+
+# Temporary build directories
+build/
+build_incr/
+build_killer/
+build_stub/
+*.log
 
 # Temporary files
 *.tmp

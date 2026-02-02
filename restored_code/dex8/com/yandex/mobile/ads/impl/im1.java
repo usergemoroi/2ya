@@ -1032,8 +1032,7 @@ ot1.c {
                         this.k = var12_12;
                         var2_2 = var1_1;
                         var12_12.a(im1.A());
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         var11_8 /* !! */  = var12_12;

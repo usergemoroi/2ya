@@ -212,7 +212,6 @@ extends yj0<K, V> {
                                 var3_7 = ((Object)var6_2).length;
                                 var2_4 = df0.a((int)var1_1.hashCode());
 lbl41:
-                                // 2 sources
 
                                 while (true) {
                                     var4_10 = var6_2[var2_4 &= var3_7 - 1];

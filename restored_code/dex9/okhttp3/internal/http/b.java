@@ -82,7 +82,6 @@ implements w {
                         var2_13 = 1;
                     }
 lbl21:
-                    // 3 sources
 
                     while (true) {
                         if (var1_1 instanceof a) {
@@ -93,7 +92,6 @@ lbl21:
                         }
                         var8_14 = var1_1;
 lbl27:
-                        // 2 sources
 
                         while (true) {
                             block32: {
@@ -156,10 +154,9 @@ lbl27:
                         }
                         break;
                     }
-                    catch (IOException var1_3) {
-                        var2_13 = 1;
+        // Removed invalid catch block
                         var7_11 /* !! */  = null;
-                        ** GOTO lbl21
+
                     }
                 }
                 var3_12 = 1;
@@ -184,7 +181,7 @@ lbl27:
                     catch (IOException var1_4) {
                         var7_11 /* !! */  = var8_14;
                         var2_13 = var4_15;
-                        ** continue;
+
                     }
                 }
                 var8_14 = var7_11 /* !! */ ;
@@ -216,8 +213,6 @@ lbl27:
                 }
             }
             break block34;
-lbl-1000:
-            // 1 sources
 
             {
                 var10_6.p();
@@ -232,7 +227,6 @@ lbl-1000:
             block35: {
                 if (var12_8.isDuplex()) break block35;
 lbl140:
-                // 2 sources
 
                 var8_14 = var1_1;
                 var4_15 = var2_13;
@@ -240,7 +234,7 @@ lbl140:
             }
             var8_14 = null;
             var7_11 /* !! */  = var1_1;
-            ** continue;
+
         }
     }
 }
