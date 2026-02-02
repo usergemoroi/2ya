@@ -1,0 +1,60 @@
+/*
+ * Decompiled with CFR 0.152.
+ * 
+ * Could not load the following classes:
+ *  android.content.Context
+ *  android.net.Uri
+ *  com.yandex.mobile.ads.impl.d50
+ *  com.yandex.mobile.ads.impl.fz0
+ *  com.yandex.mobile.ads.impl.kx1
+ *  com.yandex.mobile.ads.impl.w82
+ *  com.yandex.mobile.ads.impl.w82$a
+ *  com.yandex.mobile.ads.impl.x2
+ *  com.yandex.mobile.ads.impl.ya0
+ *  com.yandex.mobile.ads.impl.ya0$b
+ */
+package com.yandex.mobile.ads.impl;
+
+import android.content.Context;
+import android.net.Uri;
+import com.yandex.mobile.ads.impl.d50;
+import com.yandex.mobile.ads.impl.fz0;
+import com.yandex.mobile.ads.impl.kx1;
+import com.yandex.mobile.ads.impl.w82;
+import com.yandex.mobile.ads.impl.x2;
+import com.yandex.mobile.ads.impl.ya0;
+import java.util.Map;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+public final class kg1
+implements w82 {
+    @NotNull
+    private final fz0 a;
+    @NotNull
+    private final d50 b;
+
+    public kg1(@NotNull fz0 fz02) {
+        this.a = fz02;
+        this.b = new d50();
+    }
+
+    @NotNull
+    public final w82.a a() {
+        return w82.a.c;
+    }
+
+    @NotNull
+    public final String a(@NotNull Context context, @NotNull x2 object, @NotNull kx1 kx12) {
+        Map map2 = this.a.d();
+        object = new ya0(ya0.b.a((Context)context, (x2)object, (kx1)kx12).b(map2), 0).toString();
+        return this.b.a(context, (String)object);
+    }
+
+    @Nullable
+    public final String a(@NotNull x2 object) {
+        object = (object = object.j().a()) != null && ((String)object).length() > 0 ? Uri.parse((String)object).buildUpon().appendEncodedPath("v4/ad").build().toString() : null;
+        return object;
+    }
+}
+
