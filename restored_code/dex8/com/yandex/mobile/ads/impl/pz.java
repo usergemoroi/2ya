@@ -191,8 +191,7 @@ implements x70 {
                                     var3_7 = 1;
                                     break block65;
                                 }
-                                if (!var2_3.equals("audio/x-flac")) lbl-1000:
-                                // 3 sources
+                                if (!var2_3.equals("audio/x-flac")) // 3 sources
 
                                 {
                                     var3_7 = -1;
@@ -352,8 +351,7 @@ implements x70 {
                 var3_7 = 0;
             }
             switch (var3_7) {
-                default: lbl-1000:
-                // 2 sources
+                default: // 2 sources
 
                 {
                     var4_8 = -1;
@@ -454,7 +452,6 @@ implements x70 {
                                                                                 block70: {
                                                                                     pz.a(var4_8, var7_4);
 lbl200:
-                                                                                    // 2 sources
 
                                                                                     if ((var1_1 = var1_1.getLastPathSegment()) == null) ** GOTO lbl-1000
                                                                                     if (var1_1.endsWith(".ac3") || var1_1.endsWith(".ec3")) break block69;
@@ -489,8 +486,6 @@ lbl200:
                                                                 if (var1_1.endsWith(".vtt") || var1_1.endsWith(".webvtt")) break block83;
                                                                 if (!var1_1.endsWith(".jpg") && !var1_1.endsWith(".jpeg")) {
                                                                     ** if (!var1_1.endsWith((String)".avi")) goto lbl-1000
-lbl-1000:
-                                                                    // 1 sources
 
                                                                     {
                                                                         var3_7 = 16;
@@ -498,8 +493,6 @@ lbl-1000:
                                                                     }
                                                                 }
                                                                 break block84;
-lbl-1000:
-                                                                // 2 sources
 
                                                                 {
                                                                     var3_7 = -1;
@@ -547,8 +540,7 @@ lbl-1000:
                     pz.a(var6_9, var7_4);
                 }
             }
-            catch (Throwable var1_2) {}
-            return var7_4.toArray(new t70[var7_4.size()]);
+        // Removed invalid catch block
             throw var1_2;
         }
     }

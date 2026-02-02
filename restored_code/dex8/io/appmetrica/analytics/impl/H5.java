@@ -103,7 +103,6 @@ extends DatabaseScript {
                 catch (Throwable var2_4) {
                     var2_3 = null;
 lbl7:
-                    // 2 sources
 
                     while (true) {
                         if (var2_3 == null) break block9;
@@ -130,7 +129,6 @@ lbl7:
         var1_1.execSQL("CREATE TABLE IF NOT EXISTS sessions (id INTEGER,type INTEGER,report_request_parameters TEXT,session_description BLOB )");
         var2_3 = var4_2.iterator();
 lbl29:
-        // 2 sources
 
         while (true) {
             if (!var2_3.hasNext()) ** GOTO lbl36
@@ -138,16 +136,13 @@ lbl29:
             var1_1.insertOrThrow("sessions", null, (ContentValues)var3_5);
             continue;
 lbl36:
-            // 1 sources
 
             return;
             break;
         }
-        catch (Throwable var3_6) {
-            ** continue;
+        // Removed invalid catch block
         }
-        catch (Throwable var3_7) {
-            ** continue;
+        // Removed invalid catch block
         }
     }
 }

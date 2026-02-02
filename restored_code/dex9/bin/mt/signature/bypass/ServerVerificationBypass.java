@@ -90,8 +90,7 @@ public class ServerVerificationBypass {
             );
             
             Log.i(TAG, "OkHttp interceptor created");
-        } catch (Exception e) {
-            Log.d(TAG, "OkHttp not found or already hooked", e);
+        // Removed invalid catch block
         }
     }
     
@@ -168,8 +167,7 @@ public class ServerVerificationBypass {
             
             Method requestBuildMethod = requestBuilderClass.getMethod("build");
             return requestBuildMethod.invoke(requestBuilder);
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to modify request", e);
+        // Removed invalid catch block
             return request;
         }
     }
@@ -206,8 +204,7 @@ public class ServerVerificationBypass {
                 Method buildMethod = builderClass.getMethod("build");
                 return buildMethod.invoke(responseBuilder);
             }
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to modify response", e);
+        // Removed invalid catch block
         }
         
         return response;

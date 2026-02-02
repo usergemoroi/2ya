@@ -65,7 +65,6 @@ extends b32 {
                     var2_3 = var3_2 - 8;
                     var3_2 = 256;
 lbl15:
-                    // 2 sources
 
                     while (true) {
                         var2_3 = var3_2 << var2_3;
@@ -76,7 +75,6 @@ lbl15:
                 case 7: {
                     var2_3 = var1_1.z();
 lbl20:
-                    // 2 sources
 
                     while (true) {
                         ++var2_3;
@@ -86,7 +84,7 @@ lbl20:
                 }
                 case 6: {
                     var2_3 = var1_1.t();
-                    ** continue;
+
                 }
                 case 2: 
                 case 3: 
@@ -94,7 +92,7 @@ lbl20:
                 case 5: {
                     var2_3 = var3_2 - 2;
                     var3_2 = 576;
-                    ** continue;
+
                 }
                 case 1: {
                     var2_3 = 192;

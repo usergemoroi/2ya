@@ -259,8 +259,7 @@ extends ViewModel {
                                     if ((var3_4 & -2147483648) != 0) {
                                         var4_3 /* !! */ .label = var3_4 + -2147483648;
                                         var2_2 /* !! */  = var4_3 /* !! */ ;
-                                    } else lbl-1000:
-                                    // 2 sources
+                                    } else // 2 sources
 
                                     {
                                         var2_2 /* !! */  = new kotlin.coroutines.jvm.internal.d(this, var2_2 /* !! */ ){
@@ -290,7 +289,6 @@ extends ViewModel {
                                     } else {
                                         throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl17:
-                                        // 1 sources
 
                                         v.b(var5_5);
                                         var5_5 = this.$this_unsafeFlow;
@@ -345,8 +343,7 @@ lbl17:
                                                                     var3_4 = var5_3.label;
                                                                     if ((var3_4 & -2147483648) != 0) {
                                                                         var5_3.label = var3_4 + -2147483648;
-                                                                    } else lbl-1000:
-                                                                    // 2 sources
+                                                                    } else // 2 sources
 
                                                                     {
                                                                         var5_3 = new kotlin.coroutines.jvm.internal.d(this, (d)var2_2){
@@ -384,7 +381,7 @@ lbl17:
                                                             var1_1 = (i)var5_3.L$1;
                                                             var6_7 = var5_3.L$0;
                                                             v.b(var7_5);
-                                                            ** GOTO lbl58
+
                                                         }
                                                         v.b(var7_5);
                                                         var2_2 = this.$this_unsafeFlow;
@@ -420,7 +417,6 @@ lbl17:
                                                     var1_1 = var2_2;
                                                     var2_2 = var8_9;
 lbl58:
-                                                    // 2 sources
 
                                                     var10_10 = (OpenMessengerResponse)var7_5;
                                                     var7_5 = var10_10 != null ? var10_10.getNewConversationData() : null;
@@ -530,8 +526,7 @@ lbl58:
                                     if ((var3_4 & -2147483648) != 0) {
                                         var4_3 /* !! */ .label = var3_4 + -2147483648;
                                         var2_2 /* !! */  = var4_3 /* !! */ ;
-                                    } else lbl-1000:
-                                    // 2 sources
+                                    } else // 2 sources
 
                                     {
                                         var2_2 /* !! */  = new kotlin.coroutines.jvm.internal.d(this, var2_2 /* !! */ ){
@@ -562,7 +557,6 @@ lbl58:
                                     } else {
                                         throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl17:
-                                        // 1 sources
 
                                         v.b(var5_5);
                                         var5_5 = this.$this_unsafeFlow;

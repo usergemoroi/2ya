@@ -44,29 +44,20 @@ public final class o0 {
     public final void a(Long var1_1) {
         ** synchronized (this)
         {
-            catch (InterruptedException var1_3) {
-                return;
+        // Removed invalid catch block
             }
         }
-lbl-1000:
-        // 1 sources
 
         {
             ** try [egrp 1[TRYBLOCK] [1 : 2->20)] { 
-lbl-1000:
-            // 1 sources
 
             {
-                catch (Throwable var1_2) {}
-            }
+        // Removed invalid catch block
 lbl7:
-            // 1 sources
 
-            ** GOTO lbl9
             {
                 throw var1_2;
 lbl9:
-                // 1 sources
 
                 var2_4 = this.e;
                 if (var2_4 == null) {

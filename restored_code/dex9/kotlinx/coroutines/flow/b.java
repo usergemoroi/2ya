@@ -62,8 +62,7 @@ extends f<T> {
         if ((var3_4 & -2147483648) != 0) {
             var4_3.o = var3_4 + -2147483648;
             var2_2 = var4_3;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var2_2 = new kotlin.coroutines.jvm.internal.d(this, var2_2){
@@ -95,7 +94,6 @@ extends f<T> {
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl18:
-            // 1 sources
 
             v.b((Object)var6_5);
             var2_2.l = var1_1;

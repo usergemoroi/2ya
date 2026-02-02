@@ -51,7 +51,6 @@ extends pn {
                     return var1_1;
                 }
 lbl19:
-                // 3 sources
 
                 while (true) {
                     var4_4 = true;
@@ -61,7 +60,6 @@ lbl19:
             }
             var6_7 = var2_2.iterator();
 lbl23:
-            // 2 sources
 
             while (true) {
                 if (var6_7.hasNext()) {
@@ -87,11 +85,9 @@ lbl23:
         var2_2.append("Certificate chain too long: ");
         var2_2.append(var1_1);
         throw new SSLPeerUnverifiedException(var2_2.toString());
-        catch (GeneralSecurityException var5_6) {
-            ** continue;
+        // Removed invalid catch block
         }
-        catch (GeneralSecurityException var7_9) {
-            ** continue;
+        // Removed invalid catch block
         }
     }
 

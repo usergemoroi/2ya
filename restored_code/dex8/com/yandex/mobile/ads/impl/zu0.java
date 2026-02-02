@@ -46,8 +46,7 @@ implements jg<zw0> {
                 }
             }
             var3_6 = true;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var3_6 = false;
@@ -56,8 +55,7 @@ implements jg<zw0> {
         this.b.getClass();
         if (var8_3.a() > 0.0f) {
             var4_7 = true;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var4_7 = false;

@@ -78,8 +78,7 @@ implements c0 {
                     boolean bl2;
                     if (!this.b.isEmpty() || !(bl2 = this.c.isEmpty())) break block7;
                     {
-                        catch (Throwable throwable2) {
-                            break block6;
+        // Removed invalid catch block
                         }
                     }
                     try {

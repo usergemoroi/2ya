@@ -61,8 +61,7 @@ public class Period {
             TimeUnit timeUnit = TimeUnit.DAY;
             return new Period(n10, (TimeUnit)var0_7);
         }
-        catch (Throwable throwable) {
-            return null;
+        // Removed invalid catch block
         }
     }
 

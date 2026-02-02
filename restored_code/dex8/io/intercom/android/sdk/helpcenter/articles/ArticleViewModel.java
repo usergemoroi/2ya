@@ -195,8 +195,7 @@ implements ArticleWebViewListener {
                                     if ((var3_4 & -2147483648) != 0) {
                                         var4_3 /* !! */ .label = var3_4 + -2147483648;
                                         var2_2 /* !! */  = var4_3 /* !! */ ;
-                                    } else lbl-1000:
-                                    // 2 sources
+                                    } else // 2 sources
 
                                     {
                                         var2_2 /* !! */  = new kotlin.coroutines.jvm.internal.d(this, var2_2 /* !! */ ){
@@ -227,7 +226,6 @@ implements ArticleWebViewListener {
                                     } else {
                                         throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl17:
-                                        // 1 sources
 
                                         v.b(var5_5);
                                         var5_5 = this.$this_unsafeFlow;
@@ -597,7 +595,7 @@ lbl17:
                                 if (var9_8 == var8_2) {
                                     return var8_2;
                                 } else {
-                                    ** GOTO lbl47
+
                                 }
                             }
                             break block7;

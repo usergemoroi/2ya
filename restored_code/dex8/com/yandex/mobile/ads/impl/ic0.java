@@ -927,8 +927,7 @@ implements t70 {
                                                                                     var21_14 /* !! */  = (g62[])g41.a;
                                                                                     if ("video/avc".equals(var25_19) && (var4_4 & 31) == var3_3 || "video/hevc".equals(var25_19) && (var4_4 & 126) >> 1 == 39) {
                                                                                         var7_6 = true;
-                                                                                    } else lbl-1000:
-                                                                                    // 2 sources
+                                                                                    } else // 2 sources
 
                                                                                     {
                                                                                         var7_6 = false;

@@ -180,17 +180,8 @@ extends m0 {
                 if (c4.exit()) throw c4.access$newTimeoutException(null);
                 return;
                 {
-                    catch (Throwable throwable2222222) {
-                    }
-                    catch (IOException iOException) {}
-                    {
-                        IOException iOException;
-                        if (!c4.exit()) {
-                            throw iOException;
-                        }
-                        iOException = c4.access$newTimeoutException(iOException);
-                        throw iOException;
-                    }
+        // Removed invalid catch block
+        // Removed invalid catch block
                 }
                 c4.exit();
                 throw throwable2222222;
@@ -218,17 +209,8 @@ extends m0 {
                 if (c4.exit()) throw c4.access$newTimeoutException(null);
                 return;
                 {
-                    catch (Throwable throwable2222222) {
-                    }
-                    catch (IOException iOException) {}
-                    {
-                        IOException iOException;
-                        if (!c4.exit()) {
-                            throw iOException;
-                        }
-                        iOException = c4.access$newTimeoutException(iOException);
-                        throw iOException;
-                    }
+        // Removed invalid catch block
+        // Removed invalid catch block
                 }
                 c4.exit();
                 throw throwable2222222;
@@ -280,18 +262,9 @@ extends m0 {
                     l4 -= l5;
                     continue;
                     {
-                        catch (Throwable throwable2222222) {
-                            break;
+        // Removed invalid catch block
                         }
-                        catch (IOException iOException) {}
-                        {
-                            IOException iOException;
-                            if (!((c)((Object)object)).exit()) {
-                                throw iOException;
-                            }
-                            iOException = ((c)((Object)object)).access$newTimeoutException(iOException);
-                            throw iOException;
-                        }
+        // Removed invalid catch block
                     }
                 }
                 ((c)((Object)object)).exit();
@@ -328,17 +301,8 @@ extends m0 {
                 if (c4.exit()) throw c4.access$newTimeoutException(null);
                 return;
                 {
-                    catch (Throwable throwable2222222) {
-                    }
-                    catch (IOException iOException) {}
-                    {
-                        IOException iOException;
-                        if (!c4.exit()) {
-                            throw iOException;
-                        }
-                        iOException = c4.access$newTimeoutException(iOException);
-                        throw iOException;
-                    }
+        // Removed invalid catch block
+        // Removed invalid catch block
                 }
                 c4.exit();
                 throw throwable2222222;
@@ -366,17 +330,8 @@ extends m0 {
                 if (c4.exit()) throw c4.access$newTimeoutException(null);
                 return l4;
                 {
-                    catch (Throwable throwable2222222) {
-                    }
-                    catch (IOException iOException) {}
-                    {
-                        IOException iOException;
-                        if (!c4.exit()) {
-                            throw iOException;
-                        }
-                        iOException = c4.access$newTimeoutException(iOException);
-                        throw iOException;
-                    }
+        // Removed invalid catch block
+        // Removed invalid catch block
                 }
                 c4.exit();
                 throw throwable2222222;
@@ -410,18 +365,9 @@ extends m0 {
             this.enter();
             a4 = a4.invoke();
             {
-                catch (Throwable throwable2222222) {
-                    break block5;
+        // Removed invalid catch block
                 }
-                catch (IOException iOException) {}
-                {
-                    IOException iOException;
-                    if (!this.exit()) {
-                        throw iOException;
-                    }
-                    iOException = this.access$newTimeoutException(iOException);
-                    throw iOException;
-                }
+        // Removed invalid catch block
             }
             w.b((int)1);
             if (this.exit()) throw this.access$newTimeoutException(null);

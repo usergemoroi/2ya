@@ -159,8 +159,7 @@ implements t70 {
                                 }
                                 if (var13_14 != -1L && var15_13 != -1L && var11_11 != -1L && var9_12 != -1L) {
                                     var1_1 = new a21(var11_11, var9_12, var1_1.a, var13_14, var15_13);
-                                } else lbl-1000:
-                                // 2 sources
+                                } else // 2 sources
 
                                 {
                                     var1_1 = null;

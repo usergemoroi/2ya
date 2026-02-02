@@ -114,8 +114,7 @@ extends nh {
             qf3.i(object4.toString());
             return false;
         }
-        catch (Throwable throwable) {
-            return false;
+        // Removed invalid catch block
         }
     }
 

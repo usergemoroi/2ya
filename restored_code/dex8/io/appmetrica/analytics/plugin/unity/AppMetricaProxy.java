@@ -275,12 +275,11 @@ public final class AppMetricaProxy {
         block2: {
             if (var0 != null) break block2;
             var0 = null;
-            ** GOTO lbl7
+
         }
         try {
             var0 = LocationSerializer.fromJsonString(var0);
 lbl7:
-            // 2 sources
 
             AppMetrica.setLocation((Location)var0);
         }

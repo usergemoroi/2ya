@@ -73,8 +73,7 @@ public class CloudCertBypass {
             );
             
             Log.i(TAG, "OkHttp CertificatePinner bypassed");
-        } catch (Exception e) {
-            Log.d(TAG, "OkHttp CertificatePinner not found or already bypassed", e);
+        // Removed invalid catch block
         }
     }
     
@@ -108,8 +107,7 @@ public class CloudCertBypass {
             });
             
             Log.i(TAG, "SSL TrustManager bypassed globally");
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to hook TrustManager", e);
+        // Removed invalid catch block
         }
     }
     
@@ -140,8 +138,7 @@ public class CloudCertBypass {
             defaultContextField.set(null, customContext);
             
             Log.i(TAG, "Default SSLContext replaced");
-        } catch (Exception e) {
-            Log.d(TAG, "Failed to hook SSLContext", e);
+        // Removed invalid catch block
         }
     }
     
@@ -196,8 +193,7 @@ public class CloudCertBypass {
             HttpsURLConnection.setDefaultHostnameVerifier((hostname, session) -> true);
             
             Log.i(TAG, "All SSL certificates are now trusted");
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to trust all certificates", e);
+        // Removed invalid catch block
         }
     }
 }

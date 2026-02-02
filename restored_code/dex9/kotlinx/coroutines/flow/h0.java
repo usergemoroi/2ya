@@ -117,8 +117,7 @@ q<T> {
                             var3_7 = var6_6.r;
                             if ((var3_7 & -2147483648) != 0) {
                                 var6_6.r = var3_7 + -2147483648;
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var6_6 = new kotlin.coroutines.jvm.internal.d(var0, (kotlin.coroutines.d<? super c>)var2_3 /* !! */ ){

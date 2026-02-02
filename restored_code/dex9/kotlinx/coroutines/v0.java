@@ -210,7 +210,6 @@ implements Runnable {
                     var5_4 = kotlin.ranges.j.j(var5_4, var3_2);
                     break block14;
 lbl44:
-                    // 1 sources
 
                     var1_3 = 0x7FFFFFFFFFFFFFFFL;
                 }

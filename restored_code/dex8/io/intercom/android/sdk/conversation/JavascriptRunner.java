@@ -77,8 +77,7 @@ public class JavascriptRunner {
                             this.webView.post(runnable);
                             break block4;
                         }
-                        catch (Throwable throwable2) {
-                            break block5;
+        // Removed invalid catch block
                         }
                     }
                     this.actionsAfterLoad.add(runnable);

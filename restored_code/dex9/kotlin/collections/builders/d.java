@@ -601,8 +601,7 @@ kotlin.jvm.internal.markers.e {
             return false;
         }
         return true;
-        catch (ClassCastException classCastException) {
-            return false;
+        // Removed invalid catch block
         }
     }
 

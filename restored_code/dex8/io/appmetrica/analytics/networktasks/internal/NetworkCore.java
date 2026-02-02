@@ -82,8 +82,7 @@ extends InterruptionSafeThread {
                 ((NetworkTask)object).onTaskFinished();
                 object3 = this.c;
             }
-            catch (Throwable throwable) {
-                if (object2 == null) throw throwable;
+        // Removed invalid catch block
                 ((NetworkTask)object2).onTaskFinished();
                 object = this.c;
                 // MONITORENTER : object
@@ -92,8 +91,7 @@ extends InterruptionSafeThread {
                 ((NetworkTask)object2).onTaskRemoved();
                 throw throwable;
             }
-            catch (InterruptedException interruptedException) {
-                object = object3;
+        // Removed invalid catch block
                 if (object3 == null) continue;
                 ((NetworkTask)object3).onTaskFinished();
                 object = this.c;

@@ -571,8 +571,7 @@ public class Extension<M extends ExtendableMessageNano<M>, T> {
                 ((CodedOutputByteBufferNano)object2).writeDoubleNoTag((Double)object);
                 return;
             }
-            catch (IOException iOException) {
-                throw new IllegalStateException(iOException);
+        // Removed invalid catch block
             }
         }
     }

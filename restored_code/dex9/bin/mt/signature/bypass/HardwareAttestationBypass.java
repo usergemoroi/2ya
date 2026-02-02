@@ -260,8 +260,7 @@ public class HardwareAttestationBypass {
             return (X509Certificate) cf.generateCertificate(
                 new java.io.ByteArrayInputStream(certBytes));
             
-        } catch (ClassNotFoundException e) {
-            Log.w(TAG, "BouncyCastle not available, generating basic certificate");
+        // Removed invalid catch block
             return generateBasicCertificate(keyPair, dn, notBefore, notAfter);
         }
     }

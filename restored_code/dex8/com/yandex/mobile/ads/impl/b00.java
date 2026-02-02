@@ -92,8 +92,7 @@ implements ae1 {
                         var16_9 = this.a;
                         var4_5 = var16_9.b;
                         var3_11 = var16_9.d + var16_9.e;
-                        if (0L <= (var6_7 -= var4_5) && var6_7 < 72000L) lbl-1000:
-                        // 2 sources
+                        if (0L <= (var6_7 -= var4_5) && var6_7 < 72000L) // 2 sources
 
                         {
                             var4_5 = -1L;
@@ -172,7 +171,6 @@ implements ae1 {
                 break;
             }
 lbl96:
-            // 2 sources
 
             while (true) {
                 this.f = var4_6;
@@ -181,8 +179,7 @@ lbl96:
             }
         }
         throw new EOFException();
-        catch (EOFException var1_2) {
-            ** continue;
+        // Removed invalid catch block
         }
     }
 

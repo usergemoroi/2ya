@@ -363,8 +363,7 @@ extends ViewModel {
         if ((var2_3 & -2147483648) != 0) {
             var3_2.label = var2_3 + -2147483648;
             var1_1 = var3_2;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var1_1 = new kotlin.coroutines.jvm.internal.d(this, (d<? super getCtaData.1>)var1_1){
@@ -395,7 +394,6 @@ extends ViewModel {
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl18:
-            // 1 sources
 
             v.b(var3_2);
             var3_2 = this.commonRepository;
@@ -437,8 +435,7 @@ lbl18:
                     var2_3 = var3_2.label;
                     if ((var2_3 & -2147483648) != 0) {
                         var3_2.label = var2_3 + -2147483648;
-                    } else lbl-1000:
-                    // 2 sources
+                    } else // 2 sources
 
                     {
                         var3_2 = new kotlin.coroutines.jvm.internal.d(this, (d<? super onNewConfig.1>)var1_1){
@@ -469,7 +466,7 @@ lbl18:
                     var1_1 = (c0<CollectionViewState>)var3_2.L$0;
                     v.b(var4_4);
                     var3_2 = var5_6;
-                    ** GOTO lbl34
+
                 }
                 throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
             }
@@ -488,7 +485,6 @@ lbl18:
                 }
                 var3_2 = var5_7;
 lbl34:
-                // 2 sources
 
                 var3_2 = var3_2.copyWithSingleSendMessageRow((ArticleViewState.TeamPresenceState)var4_4);
             } else {
@@ -830,7 +826,7 @@ lbl34:
                                                     var3_6 = (HelpCenterCollectionContent)this.L$0;
                                                     v.b(var1_1 /* !! */ );
                                                     var7_7 = var1_1 /* !! */ ;
-                                                    ** GOTO lbl81
+
                                                 }
                                                 throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
                                             }
@@ -916,7 +912,6 @@ lbl34:
                             var6_5 /* !! */  = var4_4;
                             var5_2 = var1_1 /* !! */ ;
 lbl81:
-                            // 2 sources
 
                             var4_4.add(new ArticleSectionRow.SendMessageRow((ArticleViewState.TeamPresenceState)var7_7));
                         } else {

@@ -44,8 +44,7 @@ c<T> {
                 if ((var3_7 & -2147483648) != 0) {
                     var4_6.o = var3_7 + -2147483648;
                     var2_2 = var4_6;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var2_2 = new kotlin.coroutines.jvm.internal.d(this, (d<? super a>)var2_2){

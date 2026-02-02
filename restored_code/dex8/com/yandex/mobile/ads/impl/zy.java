@@ -224,8 +224,7 @@ implements lh {
         var3_2 = this.t.a.B;
         if (!this.c) ** GOTO lbl-1000
         var4_3 = m92.a;
-        if (var3_2 != 0x20000000 && var3_2 != 0x30000000 && var3_2 != 4) lbl-1000:
-        // 2 sources
+        if (var3_2 != 0x20000000 && var3_2 != 0x30000000 && var3_2 != 4) // 2 sources
 
         {
             var8_4 = this.b;
@@ -233,8 +232,7 @@ implements lh {
             var8_4 = (g)var8_4;
             com.yandex.mobile.ads.impl.zy$g.b((g)var8_4).b(var7_5.b);
             com.yandex.mobile.ads.impl.zy$g.b((g)var8_4).a(var7_5.c);
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var7_5 = bi1.e;
@@ -245,15 +243,13 @@ implements lh {
         var3_2 = this.t.a.B;
         if (!this.c) ** GOTO lbl-1000
         var5_7 = m92.a;
-        if (var3_2 != 0x20000000 && var3_2 != 0x30000000 && var3_2 != 4) lbl-1000:
-        // 2 sources
+        if (var3_2 != 0x20000000 && var3_2 != 0x30000000 && var3_2 != 4) // 2 sources
 
         {
             var8_4 = this.b;
             var6_6 = this.i().b;
             com.yandex.mobile.ads.impl.zy$g.a((g)var8_4).a(var6_6);
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var6_6 = false;
@@ -364,7 +360,6 @@ implements lh {
                     } else {
                         if (var4_6 < var5_5) ** continue;
 lbl66:
-                        // 2 sources
 
                         this.A = (var4_6 = var10_9.write((ByteBuffer)var1_1, var6_7, 1)) < 0 ? 0 : (this.A -= var4_6);
                     }
@@ -556,7 +551,6 @@ lbl66:
         if (this.R == -1) {
             this.R = 0;
 lbl3:
-            // 2 sources
 
             while (true) {
                 var1_1 = true;
@@ -576,7 +570,7 @@ lbl3:
             if (!var3_3 /* !! */ .a()) {
                 return false;
             }
-            ** continue;
+
         }
         var3_3 /* !! */  = this.O;
         if (var3_3 /* !! */  != null) {
@@ -624,8 +618,7 @@ lbl3:
                 object = this.t;
                 object.getClass();
                 {
-                    catch (lh.b b11222222) {}
-                }
+        // Removed invalid catch block
                 try {
                     object = object.a(this.Y, this.v, this.W);
                     break block22;
@@ -682,8 +675,7 @@ lbl3:
             }
             this.H = true;
             return true;
-            catch (lh.b b16) {
-                object = this.r;
+        // Removed invalid catch block
                 if (object == null) throw b16;
                 ((dv0.a)object).a((Exception)((Object)b16));
                 throw b16;
@@ -1190,11 +1182,10 @@ lbl3:
                                 }
                                 if ((var6_11 & -2) != -126718022) continue;
                                 var5_8 -= var7_9;
-                                ** GOTO lbl101
+
                             }
                             var5_8 = -1;
 lbl101:
-                            // 2 sources
 
                             if (var5_8 == -1) {
                                 var5_8 = 0;
@@ -1237,40 +1228,34 @@ lbl101:
                             var5_8 = (var1_1.get(var6_13 + 4) & 1) << 6;
                             var6_13 = var1_1.get(var6_13 + 5);
 lbl132:
-                            // 2 sources
 
                             while (true) {
                                 var6_13 &= 252;
-                                ** GOTO lbl146
+
                                 break;
                             }
 lbl135:
-                            // 1 sources
 
                             var5_8 = (var1_1.get(var6_13 + 5) & 7) << 4;
                             var6_13 = var1_1.get(var6_13 + 6);
 lbl137:
-                            // 2 sources
 
                             while (true) {
                                 var6_13 &= 60;
-                                ** GOTO lbl146
+
                                 break;
                             }
 lbl140:
-                            // 1 sources
 
                             var5_8 = (var1_1.get(var6_13 + 4) & 7) << 4;
                             var6_13 = var1_1.get(var6_13 + 7);
-                            ** continue;
+
 lbl143:
-                            // 1 sources
 
                             var5_8 = (var1_1.get(var6_13 + 5) & 1) << 6;
                             var6_13 = var1_1.get(var6_13 + 4);
-                            ** continue;
+
 lbl146:
-                            // 2 sources
 
                             var5_8 = ((var6_13 >> 2 | var5_8) + 1) * 32;
                             break;

@@ -67,8 +67,7 @@ implements NexusListener {
                 }
                 return;
             }
-            catch (Throwable throwable) {}
-            throw throwable;
+        // Removed invalid catch block
         }
     }
 

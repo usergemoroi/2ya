@@ -216,8 +216,7 @@ public final class k7 {
                     object2 = object;
                 }
             }
-            catch (Throwable throwable) {
-                object2 = object3;
+        // Removed invalid catch block
                 l10 = l11;
             }
         }
@@ -334,8 +333,7 @@ public final class k7 {
                 this.i.addAndGet(-n10);
             }
         }
-        catch (Throwable throwable) {}
-        this.b.unlock();
+        // Removed invalid catch block
     }
 
     /*
@@ -505,8 +503,7 @@ public final class k7 {
                             break;
                         }
                     }
-                    catch (Throwable throwable) {
-                        stringBuffer = cursor;
+        // Removed invalid catch block
                     }
                     break block8;
                 }

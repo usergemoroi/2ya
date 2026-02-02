@@ -96,13 +96,13 @@ implements b {
                     break block15;
                 }
                 catch (NullPointerException var6_10) {
-                    ** GOTO lbl-1000
+
                 }
                 catch (IllegalArgumentException var1_3) {
-                    ** GOTO lbl30
+
                 }
                 catch (SecurityException var1_4) {
-                    ** GOTO lbl34
+
                 }
             }
             if (var4_8 > 0) {
@@ -113,8 +113,6 @@ implements b {
                 TrafficStats.setThreadStatsTag((int)var2_6);
             }
             return;
-lbl-1000:
-            // 1 sources
 
             {
                 if (Build.VERSION.SDK_INT <= 23 && y.e((Object)"ssl_session == null", (Object)var6_10.getMessage())) {
@@ -123,7 +121,6 @@ lbl-1000:
                 }
                 throw var6_10;
 lbl30:
-                // 1 sources
 
                 if (Build.VERSION.SDK_INT <= 23 && y.e((Object)"timeout < 0", (Object)var1_3.getMessage())) {
                     var6_11 = new IOException(var1_3);
@@ -131,7 +128,6 @@ lbl30:
                 }
                 throw var1_3;
 lbl34:
-                // 1 sources
 
                 var6_12 = var1_4.getCause();
                 if (var6_12 == null) {

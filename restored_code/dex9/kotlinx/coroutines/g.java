@@ -73,8 +73,7 @@ extends a<T> {
                             break block12;
                         }
                     }
-                    try lbl-1000:
-                    // 2 sources
+                    try // 2 sources
 
                     {
                         while (!Thread.interrupted()) {
@@ -82,18 +81,15 @@ extends a<T> {
                             var1_5 = var4_1 != null ? var4_1.Y() : 0x7FFFFFFFFFFFFFFFL;
                             break block13;
                         }
-                        ** GOTO lbl-1000
+
                     }
                     catch (Throwable var3_4) {
-                        ** GOTO lbl-1000
+
                     }
                 }
                 if (this.h()) ** GOTO lbl-1000
                 c.a();
                 LockSupport.parkNanos(this, var1_5);
-                ** GOTO lbl-1000
-lbl-1000:
-                // 1 sources
 
                 {
                     var4_1 = this.g;
@@ -110,16 +106,12 @@ lbl-1000:
                 return (T)var4_1;
             }
             throw var3_2.a;
-lbl-1000:
-            // 1 sources
 
             {
                 var3_2 = new InterruptedException();
                 this.T(var3_2);
                 throw var3_2;
             }
-lbl-1000:
-            // 1 sources
 
             {
                 var4_1 = this.g;

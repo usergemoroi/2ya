@@ -118,13 +118,11 @@ implements vl {
             var5_9 = Parcel.obtain();
             var6_10.writeInt(var2_5);
             var1_3.transact(1, var6_10, var5_9, 0);
-            ** GOTO lbl21
+
             {
                 block10: {
-                    catch (Throwable var0_1) {
-                    }
+        // Removed invalid catch block
 lbl21:
-                    // 2 sources
 
                     while ((var3_8 = var5_9.readInt()) == 1) {
                         var9_11 = var5_9.readBundle();
@@ -140,11 +138,7 @@ lbl21:
                 var5_9.recycle();
                 var6_10.recycle();
                 continue;
-                catch (RemoteException var0_2) {}
-                {
-                    var1_3 = new RuntimeException(var0_2);
-                    throw var1_3;
-                }
+        // Removed invalid catch block
             }
         }
         var1_3 = var8_6.a();

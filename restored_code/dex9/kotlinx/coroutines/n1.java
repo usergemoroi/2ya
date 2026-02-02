@@ -510,20 +510,16 @@ implements z0 {
                         var8_7 /* !! */  = q1.b();
                         if (var9_6 == var8_7 /* !! */ ) {
                         }
-                        ** GOTO lbl-1000
+
                     }
                     catch (Throwable var3_3) {
                         break block15;
                     }
                     return 2;
-lbl-1000:
-                    // 1 sources
 
                     {
                         ** synchronized (var3_2)
                     }
-lbl-1000:
-                    // 1 sources
 
                     {
                         block16: {
@@ -534,26 +530,23 @@ lbl-1000:
                                     if (!var5_8) break block14;
                                 }
                                 catch (Throwable var4_5) {
-                                    ** GOTO lbl-1000
+
                                 }
                                 return 1;
                             }
                             if (var8_7 /* !! */  != null) break block16;
                             var3_2.c = var1_1;
-                            ** GOTO lbl30
+
                         }
                         var6_9 = var8_7 /* !! */ .c;
                         if (var6_9 - var1_1 >= 0L) ** GOTO lbl-1000
                         var1_1 = var6_9;
-lbl-1000:
-                        // 2 sources
 
                         {
                             if (var1_1 - var3_2.c > 0L) {
                                 var3_2.c = var1_1;
                             }
 lbl30:
-                            // 4 sources
 
                             var6_9 = this.c;
                             var1_1 = var3_2.c;
@@ -562,13 +555,10 @@ lbl30:
                         {
                             this.c = var1_1;
 lbl34:
-                            // 2 sources
 
                             var3_2.a(this);
                             return 0;
                         }
-lbl-1000:
-                        // 1 sources
 
                         {
                             throw var4_5;

@@ -264,8 +264,7 @@ ex1 {
         }
         if (!var24_15.isEmpty()) {
             var21_9 = new k01((List)var24_15);
-        } else lbl-1000:
-        // 4 sources
+        } else // 4 sources
 
         {
             var21_9 = null;

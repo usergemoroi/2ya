@@ -910,8 +910,7 @@ implements t70 {
             if (var12_7 == null) throw fg1.a((String)"CodecId is missing in TrackEntry element", null);
             var1_1 = var12_7.hashCode();
             var3_36 = 4;
-            switch (var1_1) lbl-1000:
-            // 34 sources
+            switch (var1_1) // 34 sources
 
             {
                 default: {
@@ -1085,7 +1084,7 @@ implements t70 {
             }
             switch (var1_1) {
                 default: {
-                    ** break;
+
                 }
                 case 0: 
                 case 1: 
@@ -1127,11 +1126,10 @@ implements t70 {
                 case 1951062397: {
                     if (var12_7.equals("A_OPUS")) {
                         tmp = 1;
-                        ** break;
+
                     }
                 }
 lbl236:
-                // 68 sources
 
                 default: {
                     break;
@@ -1139,162 +1137,162 @@ lbl236:
                 case 1950789798: {
                     if (!var12_7.equals("A_FLAC")) ** GOTO lbl236
                     tmp = 2;
-                    ** break;
+
                 }
                 case 1950749482: {
                     if (!var12_7.equals("A_EAC3")) ** GOTO lbl236
                     tmp = 3;
-                    ** break;
+
                 }
                 case 1809237540: {
                     if (!var12_7.equals("V_MPEG2")) ** GOTO lbl236
                     tmp = 4;
-                    ** break;
+
                 }
                 case 1422270023: {
                     if (!var12_7.equals("S_TEXT/UTF8")) ** GOTO lbl236
                     tmp = 5;
-                    ** break;
+
                 }
                 case 1045209816: {
                     if (!var12_7.equals("S_TEXT/WEBVTT")) ** GOTO lbl236
                     tmp = 6;
-                    ** break;
+
                 }
                 case 855502857: {
                     if (!var12_7.equals("V_MPEGH/ISO/HEVC")) ** GOTO lbl236
                     tmp = 7;
-                    ** break;
+
                 }
                 case 738597099: {
                     if (!var12_7.equals("S_TEXT/ASS")) ** GOTO lbl236
                     tmp = 8;
-                    ** break;
+
                 }
                 case 725957860: {
                     if (!var12_7.equals("A_PCM/INT/LIT")) ** GOTO lbl236
                     tmp = 9;
-                    ** break;
+
                 }
                 case 725948237: {
                     if (!var12_7.equals("A_PCM/INT/BIG")) ** GOTO lbl236
                     tmp = 10;
-                    ** break;
+
                 }
                 case 635596514: {
                     if (!var12_7.equals("A_PCM/FLOAT/IEEE")) ** GOTO lbl236
                     tmp = 11;
-                    ** break;
+
                 }
                 case 542569478: {
                     if (!var12_7.equals("A_DTS/EXPRESS")) ** GOTO lbl236
                     tmp = 12;
-                    ** break;
+
                 }
                 case 444813526: {
                     if (!var12_7.equals("V_THEORA")) ** GOTO lbl236
                     tmp = 13;
-                    ** break;
+
                 }
                 case 99146302: {
                     if (!var12_7.equals("S_HDMV/PGS")) ** GOTO lbl236
                     tmp = 14;
-                    ** break;
+
                 }
                 case 82338134: {
                     if (!var12_7.equals("V_VP9")) ** GOTO lbl236
                     tmp = 15;
-                    ** break;
+
                 }
                 case 82338133: {
                     if (!var12_7.equals("V_VP8")) ** GOTO lbl236
                     tmp = 16;
-                    ** break;
+
                 }
                 case 82318131: {
                     if (!var12_7.equals("V_AV1")) ** GOTO lbl236
                     tmp = 17;
-                    ** break;
+
                 }
                 case 62927045: {
                     if (!var12_7.equals("A_DTS")) ** GOTO lbl236
                     tmp = 18;
-                    ** break;
+
                 }
                 case 62923603: {
                     if (!var12_7.equals("A_AC3")) ** GOTO lbl236
                     tmp = 19;
-                    ** break;
+
                 }
                 case 62923557: {
                     if (!var12_7.equals("A_AAC")) ** GOTO lbl236
                     tmp = 20;
-                    ** break;
+
                 }
                 case -356037306: {
                     if (!var12_7.equals("A_DTS/LOSSLESS")) ** GOTO lbl236
                     tmp = 21;
-                    ** break;
+
                 }
                 case -425012669: {
                     if (!var12_7.equals("S_VOBSUB")) ** GOTO lbl236
                     tmp = 22;
-                    ** break;
+
                 }
                 case -538363109: {
                     if (!var12_7.equals("V_MPEG4/ISO/AVC")) ** GOTO lbl236
                     tmp = 23;
-                    ** break;
+
                 }
                 case -538363189: {
                     if (!var12_7.equals("V_MPEG4/ISO/ASP")) ** GOTO lbl236
                     tmp = 24;
-                    ** break;
+
                 }
                 case -933872740: {
                     if (!var12_7.equals("S_DVBSUB")) ** GOTO lbl236
                     tmp = 25;
-                    ** break;
+
                 }
                 case -1373388978: {
                     if (!var12_7.equals("V_MS/VFW/FOURCC")) ** GOTO lbl236
                     tmp = 26;
-                    ** break;
+
                 }
                 case -1482641357: {
                     if (!var12_7.equals("A_MPEG/L3")) ** GOTO lbl236
                     tmp = 27;
-                    ** break;
+
                 }
                 case -1482641358: {
                     if (!var12_7.equals("A_MPEG/L2")) ** GOTO lbl236
                     tmp = 28;
-                    ** break;
+
                 }
                 case -1730367663: {
                     if (!var12_7.equals("A_VORBIS")) ** GOTO lbl236
                     tmp = 29;
-                    ** break;
+
                 }
                 case -1784763192: {
                     if (!var12_7.equals("A_TRUEHD")) ** GOTO lbl236
                     tmp = 30;
-                    ** break;
+
                 }
                 case -1985379776: {
                     if (!var12_7.equals("A_MS/ACM")) ** GOTO lbl236
                     tmp = 31;
-                    ** break;
+
                 }
                 case -2095575984: {
                     if (!var12_7.equals("V_MPEG4/ISO/SP")) ** GOTO lbl236
                     tmp = 32;
-                    ** break;
+
                 }
                 case -2095576542: {
                     if (!var12_7.equals("V_MPEG4/ISO/AP")) ** GOTO lbl236
                     tmp = 33;
-                    ** break;
+
                 }
             }
             switch (tmp) {
@@ -1448,42 +1446,40 @@ lbl236:
                     var13_17.add(ByteBuffer.allocate(8).order((ByteOrder)var14_41).putLong(var17_26.S).array());
                     var12_7 = "audio/opus";
                     var1_1 = 5760;
-                    ** break;
+
                 }
                 case 31: {
                     var13_17 = Collections.singletonList(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7));
                     var12_7 = "audio/flac";
 lbl488:
-                    // 5 sources
 
                     while (true) {
                         var1_1 = -1;
-                        ** break;
+
                         break;
                     }
                 }
                 case 30: {
                     var12_7 = "audio/eac3";
 lbl493:
-                    // 13 sources
 
                     while (true) {
                         var13_17 = null;
-                        ** GOTO lbl488
+
                         break;
                     }
                 }
                 case 29: {
                     var12_7 = "video/mpeg2";
-                    ** GOTO lbl493
+
                 }
                 case 28: {
                     var12_7 = "application/x-subrip";
-                    ** GOTO lbl493
+
                 }
                 case 27: {
                     var12_7 = "text/vtt";
-                    ** GOTO lbl493
+
                 }
                 case 26: {
                     var13_17 = nf0.a((bg1)new bg1(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7)));
@@ -1491,12 +1487,12 @@ lbl493:
                     var17_26.Y = var13_17.b;
                     var14_41 = var13_17.d;
                     var13_17 = "video/hevc";
-                    ** GOTO lbl643
+
                 }
                 case 25: {
                     var13_17 = xj0.a(hu0.d0, com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7));
                     var12_7 = "text/x-ssa";
-                    ** GOTO lbl488
+
                 }
                 case 24: {
                     var1_1 = var3_36 = m92.b((int)var17_26.P);
@@ -1506,21 +1502,19 @@ lbl493:
                     var12_7.append(". Setting mimeType to audio/x-unknown");
                     zs0.d((String)"MatroskaExtractor", (String)var12_7.toString());
 lbl525:
-                    // 3 sources
 
                     while (true) {
                         var12_7 = "audio/x-unknown";
-                        ** GOTO lbl493
+
                         break;
                     }
 lbl528:
-                    // 3 sources
 
                     while (true) {
                         var13_17 = null;
                         var3_36 = -1;
                         var12_7 = null;
-                        ** break;
+
                         break;
                     }
                 }
@@ -1531,59 +1525,58 @@ lbl528:
                         var3_36 = -1;
                         var12_7 = null;
                         var1_1 = 3;
-                        ** break;
+
                     }
                     if (var1_1 != 16) ** GOTO lbl544
                     var1_1 = 0x10000000;
-                    ** GOTO lbl528
+
 lbl544:
-                    // 1 sources
 
                     var12_7 = new StringBuilder("Unsupported big endian PCM bit depth: ");
                     var12_7.append(var17_26.P);
                     var12_7.append(". Setting mimeType to audio/x-unknown");
                     zs0.d((String)"MatroskaExtractor", (String)var12_7.toString());
-                    ** GOTO lbl525
+
                 }
                 case 22: {
                     if (var17_26.P == 32) {
                         var1_1 = var3_36;
-                        ** continue;
+
                     }
                     var12_7 = new StringBuilder("Unsupported floating point PCM bit depth: ");
                     var12_7.append(var17_26.P);
                     var12_7.append(". Setting mimeType to audio/x-unknown");
                     zs0.d((String)"MatroskaExtractor", (String)var12_7.toString());
-                    ** continue;
+
                 }
                 case 20: {
                     var12_7 = "video/x-unknown";
-                    ** GOTO lbl493
+
                 }
                 case 19: {
                     var12_7 = "application/pgs";
-                    ** GOTO lbl493
+
                 }
                 case 18: {
                     var12_7 = "video/x-vnd.on2.vp9";
-                    ** GOTO lbl493
+
                 }
                 case 17: {
                     var12_7 = "video/x-vnd.on2.vp8";
-                    ** GOTO lbl493
+
                 }
                 case 16: {
                     var12_7 = "video/av01";
-                    ** GOTO lbl493
+
                 }
                 case 15: 
                 case 21: {
                     var12_7 = "audio/vnd.dts";
-                    ** GOTO lbl493
+
                 }
                 case 14: {
                     var12_7 = "audio/ac3";
-                    ** GOTO lbl493
+
                 }
                 case 13: {
                     var12_7 = Collections.singletonList(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7));
@@ -1593,16 +1586,16 @@ lbl544:
                     var17_26.O = var13_17.b;
                     var14_41 = var13_17.c;
                     var13_17 = "audio/mp4a-latm";
-                    ** GOTO lbl643
+
                 }
                 case 12: {
                     var12_7 = "audio/vnd.dts.hd";
-                    ** continue;
+
                 }
                 case 11: {
                     var13_17 = xj0.a(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7));
                     var12_7 = "application/vobsub";
-                    ** GOTO lbl488
+
                 }
                 case 10: {
                     var13_17 = wh.a((bg1)new bg1(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7)));
@@ -1610,14 +1603,14 @@ lbl544:
                     var17_26.Y = var13_17.b;
                     var14_41 = var13_17.f;
                     var13_17 = "video/avc";
-                    ** GOTO lbl643
+
                 }
                 case 8: {
                     var13_17 = new byte[4];
                     System.arraycopy(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7), 0, var13_17, 0, 4);
                     var13_17 = xj0.a(var13_17);
                     var12_7 = "application/dvbsubs";
-                    ** continue;
+
                 }
                 case 7: {
                     var12_7 = new bg1(com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7));
@@ -1625,56 +1618,47 @@ lbl544:
                     var7_32 = var12_7.n();
                     if (var7_32 == 1482049860L) {
                     }
-                    ** GOTO lbl625
+
                     {
-                        catch (ArrayIndexOutOfBoundsException var12_8) {
-                            throw fg1.a((String)"Error parsing FourCC private data", null);
+        // Removed invalid catch block
                         }
                         ** try [egrp 1[TRYBLOCK] [1 : 3680->3726)] { 
 lbl623:
-                        // 1 sources
 
                         var12_7 = new Pair((Object)"video/divx", null);
-                        ** GOTO lbl663
+
 lbl625:
-                        // 1 sources
 
                         if (var7_32 != 859189832L) ** GOTO lbl628
                         var12_7 = new Pair((Object)"video/3gpp", null);
-                        ** GOTO lbl663
+
 lbl628:
-                        // 1 sources
 
                         if (var7_32 != 826496599L) ** GOTO lbl661
-                        ** GOTO lbl-1000
+
                     }
 lbl630:
-                    // 1 sources
 
-                    catch (ArrayIndexOutOfBoundsException var12_13) {
-                        throw fg1.a((String)"Error parsing FourCC private data", null);
+        // Removed invalid catch block
                     }
                 }
 lbl632:
-                // 3 sources
 
                 while (true) {
                     var15_39 = null;
                     var14_41 = var12_7;
                     var12_7 = var13_17;
 lbl636:
-                    // 2 sources
 
                     while (true) {
                         var3_36 = var1_1;
 lbl638:
-                        // 2 sources
 
                         while (true) {
                             var1_1 = -1;
                             var13_17 = var12_7;
                             var12_7 = var15_39;
-                            ** break;
+
                             break;
                         }
                         break;
@@ -1682,40 +1666,33 @@ lbl638:
                     break;
                 }
 lbl643:
-                // 4 sources
 
                 while (true) {
                     var1_1 = -1;
                     var15_39 = var14_41;
                     var14_41 = var13_17;
-                    ** continue;
+
                     break;
                 }
-lbl-1000:
-                // 1 sources
 
                 {
                     var1_1 = var12_7.d() + 20;
                     var12_7 = var12_7.c();
                     ** while (var1_1 < ((Object)var12_7).length - 4)
                 }
-lbl-1000:
-                // 1 sources
 
                 {
                     if (var12_7[var1_1] != false || var12_7[var1_1 + 1] != false || var12_7[var1_1 + 2] != true || var12_7[var1_1 + 3] != 15) ** GOTO lbl654
                     {
                         var12_7 = new Pair((Object)"video/wvc1", Collections.singletonList(Arrays.copyOfRange((byte[])var12_7, var1_1, ((Object)var12_7).length)));
-                        ** GOTO lbl663
+
                     }
 lbl654:
-                    // 1 sources
 
                     ++var1_1;
                     continue;
                 }
 lbl656:
-                // 1 sources
 
                 try {
                     var12_7 = fg1.a((String)"Failed to find FourCC VC1 initialization data", null);
@@ -1725,32 +1702,29 @@ lbl656:
                     throw fg1.a((String)"Error parsing FourCC private data", null);
                 }
 lbl661:
-                // 1 sources
 
                 zs0.d((String)"MatroskaExtractor", (String)"Unknown FourCC. Setting mimeType to video/x-unknown");
                 var12_7 = new Pair((Object)"video/x-unknown", null);
 lbl663:
-                // 4 sources
 
                 var14_41 = null;
                 var13_17 = (String)var12_7.first;
                 var12_7 = (List)var12_7.second;
-                ** continue;
+
                 case 6: {
                     var12_7 = "audio/mpeg";
 lbl669:
-                    // 2 sources
 
                     while (true) {
                         var1_1 = 4096;
                         var13_17 = null;
-                        ** continue;
+
                         break;
                     }
                 }
                 case 5: {
                     var12_7 = "audio/mpeg-L2";
-                    ** continue;
+
                 }
                 case 4: {
                     var13_17 = com.yandex.mobile.ads.impl.hu0$b.e(var17_26, (String)var12_7);
@@ -1777,12 +1751,11 @@ lbl669:
                         throw fg1.a((String)"Error parsing vorbis codec private", null);
                     }
 lbl697:
-                    // 2 sources
 
                     while (true) {
                         var15_39 = null;
                         var12_7 = var13_17;
-                        ** continue;
+
                         break;
                     }
                     if (var13_17[var3_36 += var4_19] != 3) throw fg1.a((String)"Error parsing vorbis codec private", null);
@@ -1795,24 +1768,22 @@ lbl697:
                         var13_17.add(var12_7);
                         var14_41 = "audio/vorbis";
                         var3_36 = 8192;
-                        ** GOTO lbl697
+
                     }
                 }
                 case 3: {
                     var17_26.T = new p72();
                     var12_7 = "audio/true-hd";
 lbl718:
-                    // 3 sources
 
                     while (true) {
                         var13_17 = null;
 lbl720:
-                        // 2 sources
 
                         while (true) {
                             var3_36 = -1;
                             var14_41 = var12_7;
-                            ** continue;
+
                             break;
                         }
                         break;
@@ -1829,13 +1800,12 @@ lbl720:
                         var13_17 = hu0.g0;
                         if (var7_33 == var13_17.getMostSignificantBits() && (var7_33 = var12_7.p()) == (var9_44 = var13_17.getLeastSignificantBits())) {
                         }
-                        ** GOTO lbl752
+
                     }
                     catch (ArrayIndexOutOfBoundsException var12_11) {
                         throw fg1.a((String)"Error parsing MS/ACM codec private", null);
                     }
 lbl738:
-                    // 2 sources
 
                     if ((var1_1 = m92.b((int)var17_26.P)) != 0) ** GOTO lbl748
                     var12_7 = new StringBuilder("Unsupported PCM bit depth: ");
@@ -1843,25 +1813,22 @@ lbl738:
                     var12_7.append(". Setting mimeType to audio/x-unknown");
                     zs0.d((String)"MatroskaExtractor", (String)var12_7.toString());
 lbl745:
-                    // 2 sources
 
                     while (true) {
                         var12_7 = "audio/x-unknown";
-                        ** GOTO lbl718
+
                         break;
                     }
 lbl748:
-                    // 1 sources
 
                     var13_17 = null;
                     var3_36 = -1;
                     var12_7 = null;
-                    ** break;
+
 lbl752:
-                    // 2 sources
 
                     zs0.d((String)"MatroskaExtractor", (String)"Non-PCM MS/ACM is unsupported. Setting mimeType to audio/x-unknown");
-                    ** continue;
+
                 }
                 case 0: 
                 case 1: 
@@ -1874,7 +1841,6 @@ lbl752:
             var13_17 = Collections.singletonList(var13_17);
             ** while (true)
 lbl761:
-            // 4 sources
 
             var18_24 = var17_26.N;
             var16_28 = var12_7;
@@ -1964,9 +1930,8 @@ lbl761:
             var17_26.X = var13_17;
             var13_17.a((cc0)var12_7);
             this.c.put(var17_26.c, (Object)var17_26);
-            ** break;
+
 lbl856:
-            // 2 sources
 
             this.u = null;
             return;
@@ -2143,7 +2108,6 @@ lbl856:
                                                     var3_3.append(var1_1);
                                                     throw fg1.a((String)var3_3.toString(), null);
 lbl24:
-                                                    // 1 sources
 
                                                     hu0.d0((hu0)var16_4, var1_1);
                                                     var16_4 = hu0.z((hu0)var16_4);

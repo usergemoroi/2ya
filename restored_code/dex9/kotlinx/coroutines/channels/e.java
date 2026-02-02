@@ -319,8 +319,7 @@ implements kotlinx.coroutines.channels.g<E> {
                 block7: {
                     var5_3 /* !! */  = var1_1;
                     if (var6_4.e * (long)kotlinx.coroutines.channels.f.b + (long)var4_5 < var2_2) break block0;
-                    do lbl-1000:
-                    // 4 sources
+                    do // 4 sources
 
                     {
                         block8: {
@@ -606,8 +605,7 @@ implements kotlinx.coroutines.channels.g<E> {
                 if ((var2_3 & -2147483648) != 0) {
                     var7_2 /* !! */ .n = var2_3 + -2147483648;
                     var1_1 = var7_2 /* !! */ ;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var1_1 = new kotlin.coroutines.jvm.internal.d(var0, (kotlin.coroutines.d<? super k>)var1_1){
@@ -642,7 +640,6 @@ implements kotlinx.coroutines.channels.g<E> {
                 } else {
                     throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl18:
-                    // 1 sources
 
                     v.b((Object)var7_2 /* !! */ );
                     var7_2 /* !! */  = (kotlinx.coroutines.channels.l)kotlinx.coroutines.channels.e.k().get(var0);
@@ -744,8 +741,7 @@ lbl18:
             if ((var6_7 & -2147483648) != 0) {
                 var9_6 /* !! */ .r = var6_7 + -2147483648;
                 var5_5 = var9_6 /* !! */ ;
-            } else lbl-1000:
-            // 2 sources
+            } else // 2 sources
 
             {
                 var5_5 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super l>)var5_5){
@@ -807,12 +803,10 @@ lbl18:
                 var1_1 /* !! */ .c();
             }
             var1_1 /* !! */  = (kotlinx.coroutines.channels.l)kotlinx.coroutines.channels.e.k().get(this);
-            ** GOTO lbl53
+
             {
                 block17: {
-                    catch (Throwable var1_2) {}
-lbl42:
-                    // 1 sources
+        // Removed invalid catch block
 
                     var1_1 /* !! */ .c();
                     var10_13 = kotlinx.coroutines.channels.k.b((Object)kotlinx.coroutines.channels.k.b.c(var14_11));
@@ -827,7 +821,6 @@ lbl42:
                     var12_9.P();
                     throw var1_2;
 lbl53:
-                    // 1 sources
 
                     while (true) {
                         if (this.t0()) {
@@ -900,12 +893,10 @@ lbl53:
                 var1_1 /* !! */ .c();
             }
             var8_7 /* !! */  = (kotlinx.coroutines.channels.l)kotlinx.coroutines.channels.e.k().get(this);
-            ** GOTO lbl26
+
             {
                 block16: {
-                    catch (Throwable var1_2) {}
-lbl17:
-                    // 1 sources
+        // Removed invalid catch block
 
                     var1_1 /* !! */ .c();
                     var10_9 = this.d;
@@ -918,7 +909,6 @@ lbl17:
                     var9_6.P();
                     throw var1_2;
 lbl26:
-                    // 1 sources
 
                     while (true) {
                         if (this.t0()) {
@@ -1260,7 +1250,6 @@ lbl26:
                                                                     var1_1.c();
                                                                     var1_1 = (kotlinx.coroutines.channels.l)kotlinx.coroutines.channels.e.m().get(this);
 lbl11:
-                                                                    // 4 sources
 
                                                                     while (true) {
                                                                         var8_9 = kotlinx.coroutines.channels.e.p().getAndIncrement(this);
@@ -1282,7 +1271,6 @@ lbl11:
                                                                 if (var12_11 != null) break block19;
                                                                 if (!var10_10) ** GOTO lbl11
 lbl25:
-                                                                // 6 sources
 
                                                                 while (true) {
                                                                     kotlinx.coroutines.channels.e.v(this, var3_4 /* !! */ , var11_7);
@@ -1306,11 +1294,11 @@ lbl25:
                                                     }
                                                     if (var4_5 >= this.h0()) ** GOTO lbl25
                                                     var1_1.c();
-                                                    ** GOTO lbl25
+
                                                 }
                                                 if (!var10_10) break block24;
                                                 var1_1.t();
-                                                ** GOTO lbl25
+
                                             }
                                             var3_4 /* !! */  = var11_7 instanceof k3 != false ? var11_7 : null;
                                             if (var3_4 /* !! */  != null) {
@@ -1321,7 +1309,6 @@ lbl25:
                                         var1_1 = u.d;
                                         var1_1 = u.b((Object)k0.a);
 lbl57:
-                                        // 4 sources
 
                                         while (true) {
                                             var11_7.resumeWith(var1_1);
@@ -1332,7 +1319,7 @@ lbl57:
                                     var1_1.c();
                                     var1_1 = u.d;
                                     var1_1 = u.b((Object)k0.a);
-                                    ** GOTO lbl57
+
                                 }
                                 var1_1 = new IllegalStateException("unexpected".toString());
                                 throw var1_1;
@@ -1346,7 +1333,7 @@ lbl57:
                     }
                     var1_1 = u.d;
                     var1_1 = u.b((Object)k0.a);
-                    ** GOTO lbl57
+
                 }
                 var1_1.c();
                 var1_1 = u.d;
@@ -2515,12 +2502,10 @@ lbl57:
                     var1_1 /* !! */ .c();
                 }
                 var1_1 /* !! */  = (kotlinx.coroutines.channels.l)kotlinx.coroutines.channels.e.k().get(var12_6);
-                ** GOTO lbl30
+
                 {
                     block14: {
-                        catch (Throwable var1_2) {}
-lbl17:
-                        // 1 sources
+        // Removed invalid catch block
 
                         var1_1 /* !! */ .c();
                         a.e(this, var13_8);
@@ -2537,7 +2522,6 @@ lbl17:
                         var11_7.P();
                         throw var1_2;
 lbl30:
-                        // 1 sources
 
                         while (true) {
                             if (var12_6.t0()) {

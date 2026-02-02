@@ -80,7 +80,7 @@ implements kr1<fz0> {
             }
         }
         catch (JSONException var1_2) {
-            ** GOTO lbl41
+
         }
         var6_4 = s0.c((Map)var1_1);
         var1_1 = var4_5;
@@ -100,7 +100,6 @@ implements kr1<fz0> {
             if (var5_6.isEmpty() != false) return var1_1;
             return new fz0((ArrayList)var5_6, (Map)var6_4);
 lbl41:
-            // 1 sources
 
             var2_8 = op0.b;
             var5_6 = new JSONException(var1_2.getMessage());

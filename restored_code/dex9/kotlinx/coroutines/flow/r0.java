@@ -180,8 +180,7 @@ q<T> {
                                 var3_5 = var4_4.s;
                                 if ((var3_5 & -2147483648) != 0) {
                                     var4_4.s = var3_5 + -2147483648;
-                                } else lbl-1000:
-                                // 2 sources
+                                } else // 2 sources
 
                                 {
                                     var4_4 = new kotlin.coroutines.jvm.internal.d(this, var2_3 /* !! */ ){
@@ -226,7 +225,7 @@ q<T> {
                                 try {
                                     v.b((Object)var12_6);
                                     var12_6 = var4_4;
-                                    ** GOTO lbl79
+
                                 }
                                 catch (Throwable var5_11) {
                                     var4_4 = var1_1;
@@ -245,7 +244,7 @@ q<T> {
                                 v.b((Object)var12_6);
                                 var13_18 = var4_4;
                                 var4_4 = var5_10;
-                                ** GOTO lbl129
+
                             }
                         }
                         var5_10 = (t0)var4_4.n;
@@ -289,7 +288,6 @@ q<T> {
                 var9_8 = null;
                 var12_6 = var4_4;
 lbl79:
-                // 2 sources
 
                 while (true) {
                     block25: {

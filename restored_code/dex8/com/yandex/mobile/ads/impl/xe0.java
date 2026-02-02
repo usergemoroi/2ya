@@ -177,7 +177,6 @@ implements u40 {
                                                     if (var5_7 == 0) {
                                                         zs0.d((String)"H263Reader", (String)"Invalid aspect ratio");
 lbl65:
-                                                        // 2 sources
 
                                                         while (true) {
                                                             var2_5 = 1.0f;
@@ -192,7 +191,7 @@ lbl65:
                                                         var2_5 = var23_21[var4_6];
                                                     } else {
                                                         zs0.d((String)"H263Reader", (String)"Invalid aspect ratio");
-                                                        ** continue;
+
                                                     }
                                                 }
                                                 if (var22_20.f()) {

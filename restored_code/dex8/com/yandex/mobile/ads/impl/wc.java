@@ -180,8 +180,7 @@ implements t70 {
                 }
                 n13 = 0;
                 break block16;
-                catch (EOFException eOFException) {}
-            }
+        // Removed invalid catch block
             n13 = -1;
         }
         long l10 = oz3.b();

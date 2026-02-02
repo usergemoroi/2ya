@@ -93,12 +93,8 @@ implements k01.b {
                     var1_4 = 0;
                     var4_9 = -1;
                     break block20;
-                    catch (NumberFormatException var8_7) {
-                        block21: {
-                            var2_5 = -1;
-                            break block21;
-                            catch (NumberFormatException var8_8) {}
-                        }
+        // Removed invalid catch block
+        // Removed invalid catch block
                         lv0.a((String)"Invalid bitrate header: ", (String)var7_1, (String)"IcyHeaders");
                         var1_4 = 0;
                     }
@@ -149,12 +145,10 @@ implements k01.b {
                 var2_5 = var3_3;
             }
             catch (NumberFormatException var11_13) {}
-            ** GOTO lbl-1000
+
             catch (NumberFormatException var11_14) {
                 var2_5 = var3_3;
             }
-lbl-1000:
-            // 2 sources
 
             {
                 lv0.a((String)"Invalid metadata interval: ", (String)var0, (String)"IcyHeaders");

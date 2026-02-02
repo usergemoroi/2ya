@@ -124,8 +124,7 @@ io.ktor.utils.io.j {
                         if ((var5_6 & -2147483648) != 0) {
                             var7_5.r = var5_6 + -2147483648;
                             var4_4 = var7_5;
-                        } else lbl-1000:
-                        // 2 sources
+                        } else // 2 sources
 
                         {
                             var4_4 = new kotlin.coroutines.jvm.internal.d(var0, var4_4){
@@ -190,10 +189,10 @@ io.ktor.utils.io.j {
                         if (var0.v(1, var4_4) == var9_8) {
                             return var9_8;
                         } else {
-                            ** GOTO lbl47
+
                         }
                     } else {
-                        ** GOTO lbl47
+
                     }
                 }
                 break block11;
@@ -232,8 +231,7 @@ io.ktor.utils.io.j {
         if ((var5_5 & -2147483648) != 0) {
             var8_4.q = var5_5 + -2147483648;
             var4_3 = var8_4;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var4_3 = new kotlin.coroutines.jvm.internal.d(this, var4_3){
@@ -269,7 +267,6 @@ io.ktor.utils.io.j {
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl20:
-            // 1 sources
 
             v.b((Object)var10_6);
             var8_4 = this;
@@ -301,8 +298,7 @@ lbl20:
         if ((var3_4 & -2147483648) != 0) {
             var5_3.p = var3_4 + -2147483648;
             var2_2 = var5_3;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var2_2 = new kotlin.coroutines.jvm.internal.d(var0, var2_2){
@@ -336,7 +332,6 @@ lbl20:
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl19:
-            // 1 sources
 
             v.b((Object)var7_5);
             var2_2.l = var0;
@@ -366,8 +361,7 @@ lbl19:
                 if ((var5_6 & -2147483648) != 0) {
                     var6_5.r = var5_6 + -2147483648;
                     var4_4 = var6_5;
-                } else lbl-1000:
-                // 2 sources
+                } else // 2 sources
 
                 {
                     var4_4 = new kotlin.coroutines.jvm.internal.d((f)var0, (d<? super j>)var4_4){
@@ -402,7 +396,7 @@ lbl19:
                 var0 = (byte[])var4_4.m;
                 var1_1 = (f)var4_4.l;
                 v.b((Object)var6_5);
-                ** GOTO lbl38
+
             }
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
         }
@@ -423,7 +417,6 @@ lbl19:
                 return var8_7;
             }
 lbl38:
-            // 3 sources
 
             var5_6 = Math.min(var1_1.B(), var3_3 - var2_2);
             q.b((p)var1_1.c, (byte[])var0, (int)var2_2, (int)var5_6);
@@ -566,8 +559,7 @@ lbl38:
                         if ((var3_4 & -2147483648) != 0) {
                             var4_3.p = var3_4 + -2147483648;
                             var2_2 = var4_3;
-                        } else lbl-1000:
-                        // 2 sources
+                        } else // 2 sources
 
                         {
                             var2_2 = new kotlin.coroutines.jvm.internal.d(this, (d<? super f>)var2_2){
@@ -751,8 +743,7 @@ lbl38:
         if ((var3_4 & -2147483648) != 0) {
             var4_3.p = var3_4 + -2147483648;
             var2_2 = var4_3;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var2_2 = new kotlin.coroutines.jvm.internal.d(this, var2_2){
@@ -786,7 +777,6 @@ lbl38:
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl19:
-            // 1 sources
 
             v.b((Object)var6_5);
             var4_3 = this;
@@ -829,8 +819,7 @@ lbl19:
         if ((var3_4 & -2147483648) != 0) {
             var4_3.p = var3_4 + -2147483648;
             var2_2 = var4_3;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var2_2 = new kotlin.coroutines.jvm.internal.d(this, var2_2){
@@ -864,7 +853,6 @@ lbl19:
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl19:
-            // 1 sources
 
             v.b((Object)var6_5);
             var4_3 = this;
@@ -920,8 +908,7 @@ lbl19:
                         if ((var3_4 & -2147483648) != 0) {
                             var5_3.p = var3_4 + -2147483648;
                             var2_2 = var5_3;
-                        } else lbl-1000:
-                        // 2 sources
+                        } else // 2 sources
 
                         {
                             var2_2 = new kotlin.coroutines.jvm.internal.d(this, (d<? super e>)var2_2){

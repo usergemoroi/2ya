@@ -30,7 +30,6 @@ public enum BlockAlignment {
         }
     };
 
-
     /*
      * WARNING - void declaration
      * Enabled force condition propagation

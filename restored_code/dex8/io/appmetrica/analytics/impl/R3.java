@@ -124,12 +124,10 @@ implements IBinaryDataHelper {
             var2_5 = new ContentValues();
             var2_5.put("data_key", var1_1);
             var3_4.delete("binary_data", "data_key = ?", new String[]{var1_1});
-            catch (Throwable var1_2) {
-                var2_5 = null;
+        // Removed invalid catch block
             }
         }
 lbl12:
-        // 2 sources
 
         while (true) {
             this.a.a(var2_5);
@@ -137,7 +135,7 @@ lbl12:
         }
         finally {
             var2_5 = var3_4;
-            ** continue;
+
         }
     }
 }

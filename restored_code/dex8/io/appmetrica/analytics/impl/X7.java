@@ -159,8 +159,7 @@ implements Closeable {
                 }
                 n10 = 0;
                 break block10;
-                catch (Throwable throwable) {}
-            }
+        // Removed invalid catch block
             n10 = 1;
         }
         if ((n10 | ((qn)object).d.a(sQLiteDatabase) ^ 1) == 0) return;

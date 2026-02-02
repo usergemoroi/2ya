@@ -75,8 +75,7 @@ implements so1 {
         if ((var2_4 & -2147483648) != 0) {
             var3_3 /* !! */ .d = var2_4 + -2147483648;
             var1_1 /* !! */  = var3_3 /* !! */ ;
-        } else lbl-1000:
-        // 2 sources
+        } else // 2 sources
 
         {
             var1_1 /* !! */  = new kotlin.coroutines.jvm.internal.d(this, var1_1 /* !! */ ){
@@ -110,7 +109,6 @@ implements so1 {
         } else {
             throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
 lbl18:
-            // 1 sources
 
             v.b((Object)var3_3 /* !! */ );
             var1_1 /* !! */ .d = 1;
@@ -168,8 +166,7 @@ lbl18:
         }
         return ((u)var1_1 /* !! */ ).j();
         {
-            catch (Throwable var1_2) {
-                throw var1_2;
+        // Removed invalid catch block
             }
         }
     }

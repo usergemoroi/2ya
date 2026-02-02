@@ -29,8 +29,7 @@ extends nh {
             var2_2.getClass();
             if (((Object)var4_4).length != 0) {
                 var3_3 = (byte[])var2_2.b.put(var3_3, var4_4);
-            } else lbl-1000:
-            // 2 sources
+            } else // 2 sources
 
             {
                 var3_3 = (byte[])var2_2.b.remove(var3_3);

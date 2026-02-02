@@ -120,10 +120,9 @@ extends DatabaseScript {
                     }
                     catch (Throwable var2_6) {
                         var2_5 = var3_2;
-                        ** GOTO lbl-1000
+
                     }
 lbl5:
-                    // 3 sources
 
                     while (true) {
                         var3_2 = var2_5;
@@ -137,8 +136,7 @@ lbl5:
                     catch (Throwable var3_4) {
                     }
                     break block10;
-                    catch (Throwable var3_3) lbl-1000:
-                    // 2 sources
+                    catch (Throwable var3_3) // 2 sources
 
                     {
                         if (var2_5 == null) break block9;

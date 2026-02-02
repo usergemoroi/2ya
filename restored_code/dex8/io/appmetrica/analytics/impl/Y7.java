@@ -348,8 +348,7 @@ public final class y7 {
                 this.p = new Sb((X6)object);
                 return this.p;
             }
-            catch (Throwable throwable) {}
-            throw throwable;
+        // Removed invalid catch block
         }
     }
 

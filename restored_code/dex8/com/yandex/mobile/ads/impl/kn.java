@@ -210,7 +210,6 @@ extends mn {
                                                         if (!var10_12) continue;
                                                         this.j();
 lbl31:
-                                                        // 24 sources
 
                                                         while (true) {
                                                             var5_4 = 1;
@@ -240,8 +239,7 @@ lbl31:
                                                     }
                                                     case 37: 
                                                     case 38: 
-                                                    case 39: lbl-1000:
-                                                    // 2 sources
+                                                    case 39: // 2 sources
 
                                                     {
                                                         this.w = true;
@@ -262,7 +260,7 @@ lbl31:
                                             if (a.c(var1_1 /* !! */ ).length() < 32) {
                                                 a.c(var1_1 /* !! */ ).append(var4_7);
                                             }
-                                            ** GOTO lbl31
+
                                         }
                                         var6_8 = var3_6 & 246;
                                         if (var6_8 != 18 || (var2_5 & 224) != 32) break block41;
@@ -271,7 +269,6 @@ lbl31:
                                         if ((var3_6 & 1) == 0) {
                                             var5_4 = kn.D[var2_5 & 31];
 lbl73:
-                                            // 2 sources
 
                                             while (true) {
                                                 continue;
@@ -279,12 +276,12 @@ lbl73:
                                             }
                                         }
                                         var5_4 = kn.E[var2_5 & 31];
-                                        ** continue;
+
                                         var4_7 = (char)var5_4;
                                         if (a.c(var1_1 /* !! */ ).length() < 32) {
                                             a.c(var1_1 /* !! */ ).append(var4_7);
                                         }
-                                        ** GOTO lbl31
+
                                     }
                                     if (var5_4 != 17 || (var2_5 & 240) != 32) break block42;
                                     var1_1 /* !! */  = this.m;
@@ -294,7 +291,7 @@ lbl73:
                                     var9_11 = (var2_5 & 1) == 1;
                                     var1_1 /* !! */  = this.m;
                                     a.a(var1_1 /* !! */ ).add(new a(var2_5 >> 1 & 7, a.c(var1_1 /* !! */ ).length(), var9_11));
-                                    ** GOTO lbl31
+
                                 }
                                 if ((var3_6 & 240) != 16 || (var2_5 & 192) != 64) break block43;
                                 var5_4 = var6_8 = kn.y[var3_6 & 7];
@@ -318,11 +315,11 @@ lbl73:
                                 if (var5_4 != 0) {
                                     a.g(this.m, (int)kn.z[var7_9]);
                                 }
-                                ** GOTO lbl31
+
                             }
                             if (var5_4 != 23 || var2_5 < 33 || var2_5 > 35) break block44;
                             a.h(this.m, (int)(var2_5 - 32));
-                            ** GOTO lbl31
+
                         }
                         if (var6_8 != 20 || (var2_5 & 240) != 32) ** GOTO lbl31
                         if (var2_5 == 32) break block45;
@@ -334,16 +331,16 @@ lbl73:
                                 if (var2_5 == 33) ** GOTO lbl157
                                 switch (var2_5) {
                                     default: {
-                                        ** GOTO lbl31
+
                                     }
                                     case 47: {
                                         this.n = this.i();
                                         this.j();
-                                        ** GOTO lbl31
+
                                     }
                                     case 46: {
                                         this.j();
-                                        ** GOTO lbl31
+
                                     }
                                     case 45: {
                                         if (var5_4 != 1 || a.a(var1_1 /* !! */  = this.m).isEmpty() && a.b(var1_1 /* !! */ ).isEmpty() && a.c(var1_1 /* !! */ ).length() == 0) ** GOTO lbl31
@@ -363,37 +360,36 @@ lbl73:
                                 var5_4 = this.p;
                                 if (var5_4 != 1 && var5_4 != 3) ** GOTO lbl31
                                 this.j();
-                                ** GOTO lbl31
+
 lbl157:
-                                // 1 sources
 
                                 this.m.a();
-                                ** GOTO lbl31
+
                             }
                             case 39: {
                                 this.a(1);
                                 this.q = 4;
                                 a.j(this.m, (int)4);
-                                ** GOTO lbl31
+
                             }
                             case 38: {
                                 this.a(1);
                                 this.q = 3;
                                 a.j(this.m, (int)3);
-                                ** GOTO lbl31
+
                             }
                             case 37: 
                         }
                         this.a(1);
                         this.q = 2;
                         a.j(this.m, (int)2);
-                        ** GOTO lbl31
+
                     }
                     this.a(3);
-                    ** GOTO lbl31
+
                 }
                 this.a(2);
-                ** GOTO lbl31
+
             }
             var11_2 = this.m;
             var1_1 /* !! */  = (u32)kn.B;
@@ -406,7 +402,7 @@ lbl157:
             var4_7 = (char)var1_1 /* !! */ [(var2_5 & 127) - 32];
             if (a.c(var11_2).length() >= 32) ** GOTO lbl31
             a.c(var11_2).append(var4_7);
-            ** continue;
+
         }
         if (var5_4 != 0 && ((var5_4 = this.p) == 1 || var5_4 == 3)) {
             this.n = this.i();

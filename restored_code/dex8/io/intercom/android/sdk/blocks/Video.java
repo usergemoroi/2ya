@@ -111,7 +111,7 @@ implements VideoBlock {
                     catch (IOException var5_7) {
                     }
                     catch (JSONException var4_5) {
-                        ** GOTO lbl-1000
+
                     }
                     {
                         var6_8 = this.twig;
@@ -121,8 +121,6 @@ implements VideoBlock {
                         var6_8.internal("ErrorObject", var4_6.toString());
                         break block8;
                     }
-lbl-1000:
-                    // 1 sources
 
                     {
                         var4_5.printStackTrace();
@@ -268,20 +266,17 @@ lbl-1000:
                                     break block6;
                                 }
                                 catch (IOException var3_8) {
-                                    ** GOTO lbl-1000
+
                                 }
                                 catch (JSONException var1_3) {
-                                    ** GOTO lbl30
+
                                 }
 lbl19:
-                                // 3 sources
 
                                 while (true) {
                                     var2_4.d().close();
                                     return;
                                 }
-lbl-1000:
-                                // 1 sources
 
                                 {
                                     var4_10 = Video.access$100(this.this$0);
@@ -289,12 +284,11 @@ lbl-1000:
                                     var1_1.append("Couldn't read response body: ");
                                     var1_1.append(var3_8.getMessage());
                                     var4_10.internal("ErrorObject", var1_1.toString());
-                                    ** GOTO lbl19
+
 lbl30:
-                                    // 1 sources
 
                                     var1_3.printStackTrace();
-                                    ** continue;
+
                                 }
                             }
                             var2_4.d().close();

@@ -67,28 +67,21 @@ implements qj {
                     try {
                         var3_2 = new LinkedHashMap();
 lbl9:
-                        // 4 sources
 
                         ** while (var1_7 = var2_1.moveToNext())
                     }
                     catch (Throwable var3_3) {}
-lbl-1000:
-                    // 1 sources
 
                     {
                         ** try [egrp 2[TRYBLOCK] [3 : 68->156)] { 
 lbl12:
-                        // 1 sources
 
                         break block12;
 lbl13:
-                        // 1 sources
 
                         catch (Throwable var4_9) {
 lbl15:
-                            // 1 sources
 
-                            ** GOTO lbl-1000
                         }
                     }
                     break block13;
@@ -97,11 +90,9 @@ lbl15:
                 var4_8 /* !! */  = var2_1.getString(var2_1.getColumnIndexOrThrow(this.d));
                 if (TextUtils.isEmpty((CharSequence)var5_10) || TextUtils.isEmpty((CharSequence)var4_8 /* !! */ )) break block14;
                 var3_2.put(var5_10, var4_8 /* !! */ );
-                ** GOTO lbl9
+
             }
             Bj.a("Invalid clid {%s : %s}", new Object[]{var5_10, var4_8 /* !! */ });
-lbl-1000:
-            // 1 sources
 
             {
                 Bj.a("Clids from satellite: %s", new Object[]{var3_2});
@@ -109,12 +100,9 @@ lbl-1000:
             }
             ro.a(var2_1);
             return var3_2;
-            catch (Throwable var3_4) {
-                var2_1 = null;
+        // Removed invalid catch block
                 break block13;
             }
-lbl-1000:
-            // 1 sources
 
             {
                 Bj.a("No Satellite content provider found", new Object[0]);

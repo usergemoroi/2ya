@@ -100,22 +100,10 @@ extends xj {
             kotlin.io.c.a((Closeable)var2_2, null);
             var2_2 = var5_6 /* !! */ ;
             if (var5_6 /* !! */  != null) break block9;
-            ** GOTO lbl24
-            catch (Throwable var7_8) {
-                try {
-                    throw var7_8;
-                }
-                catch (Throwable var5_7) {
-                    try {
-                        kotlin.io.c.a((Closeable)var2_2, var7_8);
-                        throw var5_7;
-lbl24:
-                        // 2 sources
 
-                        var2_2 = new byte[0];
-                    }
-                    catch (Exception var2_3) {
-                        var2_2 = new byte[0];
+        // Removed invalid catch block
+        // Removed invalid catch block
+        // Removed invalid catch block
                     }
                 }
             }

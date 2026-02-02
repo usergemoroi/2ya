@@ -342,8 +342,7 @@ extends ck {
                                         var1_4 = 6002;
                                         throw this.a((Exception)var10_2, var11_6, var1_4);
                                     }
-                                    case 15: lbl-1000:
-                                    // 2 sources
+                                    case 15: // 2 sources
 
                                     {
                                         var1_4 = 6003;
@@ -353,8 +352,7 @@ extends ck {
                                     case 19: 
                                     case 20: 
                                     case 21: 
-                                    case 22: lbl-1000:
-                                    // 2 sources
+                                    case 22: // 2 sources
 
                                     {
                                         var1_4 = 6004;
@@ -481,8 +479,7 @@ extends ck {
                     var1_4 = 6002;
                     throw this.a((Exception)var11_8, (cc0)var10_1, var1_4);
                 }
-                case 15: lbl-1000:
-                // 2 sources
+                case 15: // 2 sources
 
                 {
                     var1_4 = 6003;
@@ -492,8 +489,7 @@ extends ck {
                 case 19: 
                 case 20: 
                 case 21: 
-                case 22: lbl-1000:
-                // 2 sources
+                case 22: // 2 sources
 
                 {
                     var1_4 = 6004;
@@ -881,8 +877,7 @@ extends ck {
                     var7_12 = this.j0;
                     var15_14 /* !! */  = this.C;
                 }
-                catch (IllegalStateException var13_7) lbl-1000:
-                // 2 sources
+                catch (IllegalStateException var13_7) // 2 sources
 
                 {
                     while (true) {
@@ -913,8 +908,7 @@ extends ck {
             this.M();
         }
         return false;
-        catch (IllegalStateException var13_8) {
-            ** continue;
+        // Removed invalid catch block
         }
     }
 

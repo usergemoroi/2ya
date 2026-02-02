@@ -107,8 +107,7 @@ extends io.ktor.client.engine.c {
                                 var3_4 = var6_3.r;
                                 if ((var3_4 & -2147483648) != 0) {
                                     var6_3.r = var3_4 + -2147483648;
-                                } else lbl-1000:
-                                // 2 sources
+                                } else // 2 sources
 
                                 {
                                     var6_3 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super a>)var2_2){
@@ -151,7 +150,7 @@ extends io.ktor.client.engine.c {
                         var1_1 /* !! */  = (io.ktor.client.request.d)var6_3.l;
                         v.b((Object)var2_2);
                         var2_2 = var7_8;
-                        ** GOTO lbl96
+
                     }
                     var1_1 /* !! */  = (io.ktor.client.request.d)var6_3.m;
                     var7_8 = (b)var6_3.l;
@@ -236,7 +235,6 @@ extends io.ktor.client.engine.c {
                 var2_2 = var4_7 /* !! */ ;
                 var4_7 /* !! */  = var7_8;
 lbl96:
-                // 2 sources
 
                 var7_8 = var2_2;
                 var2_2 = var4_7 /* !! */ ;

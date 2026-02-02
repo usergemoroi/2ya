@@ -158,8 +158,7 @@ k3 {
                             if ((var2_3 & -2147483648) != 0) {
                                 var3_2.o = var2_3 + -2147483648;
                                 var1_1 = var3_2;
-                            } else lbl-1000:
-                            // 2 sources
+                            } else // 2 sources
 
                             {
                                 var1_1 = new kotlin.coroutines.jvm.internal.d(this, (kotlin.coroutines.d<? super b>)var1_1){

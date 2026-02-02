@@ -72,7 +72,6 @@ extends nh {
                     }
                 }
 lbl39:
-                // 2 sources
 
                 while (true) {
                     var8_4 = this.b;
@@ -87,16 +86,14 @@ lbl39:
                     return false;
                 }
                 {
-                    catch (Throwable var1_2) {
-                        throw var1_2;
+        // Removed invalid catch block
                     }
                 }
             }
         }
         this.a.m.info("Ignoring attribution since out of collecting interval", new Object[0]);
         return true;
-        catch (Throwable var8_5) {
-            ** continue;
+        // Removed invalid catch block
         }
     }
 }

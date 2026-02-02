@@ -183,12 +183,11 @@ extends wy1 {
                 }
                 case 2: {
                     var2_10 = 60.0;
-                    ** GOTO lbl93
+
                 }
                 case 1: {
                     var2_10 = 3600.0;
 lbl93:
-                    // 2 sources
 
                     var2_10 = var4_12 * var2_10;
                     return (long)(var2_10 * 1000000.0);
@@ -222,8 +221,7 @@ lbl93:
             var4_11 = var1_1.hashCode();
             var6_12 = 5;
             var7_13 = -1;
-            switch (var4_11) lbl-1000:
-            // 16 sources
+            switch (var4_11) // 16 sources
 
             {
                 default: {
@@ -405,8 +403,7 @@ lbl93:
                 case 6: {
                     var1_1 = sf.b((String)var11_15);
                     var1_1.getClass();
-                    switch (var1_1.hashCode()) lbl-1000:
-                    // 7 sources
+                    switch (var1_1.hashCode()) // 7 sources
 
                     {
                         default: {
@@ -416,7 +413,7 @@ lbl93:
                         case 3556653: {
                             var4_11 = var6_12;
                             if (var1_1.equals("text")) break;
-                            ** GOTO lbl-1000
+
                         }
                         case 3016401: {
                             if (!var1_1.equals("base")) ** GOTO lbl-1000
@@ -707,14 +704,13 @@ lbl93:
                         }
                         switch (var4_13) {
                             default: {
-                                ** GOTO lbl67
+
                             }
                             case 5: {
                                 if (var26_19.startsWith("#")) {
                                     var21_7 /* !! */  = var26_19.substring(1);
                                 }
 lbl67:
-                                // 4 sources
 
                                 var25_18 = var22_6 /* !! */ ;
                                 var23_17 /* !! */  = var21_7 /* !! */ ;
@@ -740,26 +736,25 @@ lbl67:
                                     var17_16 = var9_11;
                                     var13_14 = var7_10;
                                 }
-                                ** GOTO lbl103
+
                             }
                             case 3: {
                                 var13_14 = y72.a(var26_19, var3_3);
                                 var17_16 = var9_11;
                                 var15_15 = var11_12;
-                                ** GOTO lbl103
+
                             }
                             case 2: {
                                 var17_16 = y72.a(var26_19, var3_3);
                                 var13_14 = var7_10;
                                 var15_15 = var11_12;
-                                ** GOTO lbl103
+
                             }
                             case 1: {
                                 var15_15 = y72.a(var26_19, var3_3);
                                 var13_14 = var7_10;
                                 var17_16 = var9_11;
 lbl103:
-                                // 4 sources
 
                                 var25_18 = var22_6 /* !! */ ;
                                 var23_17 /* !! */  = var21_7 /* !! */ ;
@@ -1124,8 +1119,7 @@ lbl103:
                                 }
                                 zs0.d((String)"TtmlDecoder", (String)"Ignoring region without an extent");
                                 break block34;
-                                catch (NumberFormatException numberFormatException) {
-                                    zs0.d((String)"TtmlDecoder", (String)"Ignoring region with malformed origin: ".concat((String)object2));
+        // Removed invalid catch block
                                 }
                                 break block34;
                             }
@@ -1264,7 +1258,6 @@ lbl103:
                                             var4_14 = 0;
                                             var8_15 = null;
 lbl18:
-                                            // 2 sources
 
                                             while (var5_13 != 1) {
                                                 var9_16 = (z72)var17_12.peek();
@@ -1280,11 +1273,9 @@ lbl18:
                                             }
                                             break block21;
                                         }
-                                        catch (IOException var1_2) {
-                                            throw new IllegalStateException("Unexpected error when reading input.", var1_2);
+        // Removed invalid catch block
                                         }
-                                        catch (XmlPullParserException var1_3) {
-                                            throw new s32("Unable to decode source", var1_3);
+        // Removed invalid catch block
                                         }
                                     }
                                     var3_5 = y72.a(var10_18);
@@ -1293,7 +1284,7 @@ lbl18:
                                     var9_16.append("Ignoring unsupported tag: ");
                                     var9_16.append(var13_6.getName());
                                     zs0.c((String)"TtmlDecoder", (String)var9_16.toString());
-                                    ** GOTO lbl-1000
+
                                 }
                                 if ("head".equals(var10_18)) {
                                     y72.a(var13_6, var15_7, var1_1 /* !! */ , var7_11 /* !! */ , var16_8, var14_9);
@@ -1317,7 +1308,7 @@ lbl18:
                             break block25;
                         }
                         zs0.b((String)"TtmlDecoder", (String)"Suppressing parser error", (Throwable)var9_17);
-                        ** GOTO lbl-1000
+
                     }
                     if (var5_13 == 4) {
                         var9_16.getClass();
@@ -1350,8 +1341,7 @@ lbl18:
                     }
                     break block25;
                 }
-                if (var5_13 == 2) lbl-1000:
-                // 3 sources
+                if (var5_13 == 2) // 3 sources
 
                 {
                     var2_4 = var4_14 + 1;
@@ -1381,7 +1371,7 @@ lbl18:
             var1_1 /* !! */  = var11_19 /* !! */ ;
             var4_14 = var2_4;
             var8_15 = var12_20;
-            ** GOTO lbl18
+
         }
         if (var8_15 != null) {
             return var8_15;

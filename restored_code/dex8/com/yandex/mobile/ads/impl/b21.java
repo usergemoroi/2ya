@@ -245,8 +245,7 @@ implements t70 {
                                                                         var4_8 = 36;
                                                                         break block54;
                                                                     }
-                                                                    if (var14_6.e != 1) lbl-1000:
-                                                                    // 2 sources
+                                                                    if (var14_6.e != 1) // 2 sources
 
                                                                     {
                                                                         var4_8 = 21;
@@ -266,8 +265,7 @@ implements t70 {
                                                             var2_3.e(36);
                                                             if (var2_3.h() == 1447187017) {
                                                                 var3_4 = 1447187017;
-                                                            } else lbl-1000:
-                                                            // 2 sources
+                                                            } else // 2 sources
 
                                                             {
                                                                 var3_4 = 0;
@@ -349,7 +347,6 @@ implements t70 {
                                                 if (var14_6 != null) {
                                                     var7_13 = var14_6.c();
 lbl110:
-                                                    // 3 sources
 
                                                     while (true) {
                                                         var9_10 = -1L;
@@ -371,7 +368,7 @@ lbl110:
                                                 var14_6 = (v42)var14_6;
                                                 if (!var14_6.b.equals("TLEN")) continue;
                                                 var7_13 = m92.a((long)Long.parseLong(var14_6.d));
-                                                ** GOTO lbl110
+
                                             }
                                         }
                                         var7_13 = -9223372036854775807L;
@@ -445,21 +442,17 @@ lbl110:
                             this.s = false;
                             this.j = this.i;
                         } else {
-                            ** GOTO lbl-1000
+
                         }
                     } else {
-                        ** GOTO lbl-1000
+
                     }
                 }
             }
-            ** GOTO lbl-1000
-lbl-1000:
-            // 6 sources
 
             {
                 var3_4 = this.j.b((iv)var1_1, this.p, true);
-                if (var3_4 == -1) lbl-1000:
-                // 3 sources
+                if (var3_4 == -1) // 3 sources
 
                 {
                     while (true) {
@@ -494,8 +487,7 @@ lbl-1000:
             return var3_4;
         }
         throw new IllegalStateException();
-        catch (EOFException var1_2) {
-            ** continue;
+        // Removed invalid catch block
         }
     }
 

@@ -61,14 +61,12 @@ public abstract class jb {
                             object2 = object5;
                             break block14;
                         }
-                        catch (IOException | SecurityException exception) {
-                            Object var3_13 = null;
+        // Removed invalid catch block
                             object3 = object2;
                             object2 = var3_13;
                             break block15;
                         }
-                        catch (Throwable throwable) {
-                            object4 = null;
+        // Removed invalid catch block
                             object2 = null;
                         }
                     }

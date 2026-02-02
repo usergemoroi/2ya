@@ -72,12 +72,10 @@ implements j1 {
         t0 t02 = new t0((Context)object, relativeLayout, r14, (Window)var6_11, string2, q22, linearLayout, textView, progressBar, f922);
         return t02;
         {
-            catch (ek2 ek22) {
-                return null;
+        // Removed invalid catch block
             }
         }
-        catch (Throwable throwable) {
-            ek2 ek23 = new ek2();
+        // Removed invalid catch block
             throw ek23;
         }
     }

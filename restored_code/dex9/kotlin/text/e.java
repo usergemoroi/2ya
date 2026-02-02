@@ -82,8 +82,7 @@ implements i<kotlin.ranges.i> {
                         this.g = var2_1 = this.g + 1;
                         if (var2_1 >= e.e(this.h)) ** GOTO lbl-1000
                     }
-                    if (this.e > e.d(this.h).length()) lbl-1000:
-                    // 2 sources
+                    if (this.e > e.d(this.h).length()) // 2 sources
 
                     {
                         this.f = new kotlin.ranges.i(this.d, p.Y(e.d(this.h)));

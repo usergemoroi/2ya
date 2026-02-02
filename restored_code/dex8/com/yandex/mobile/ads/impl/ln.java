@@ -170,7 +170,6 @@ extends mn {
                                                                                                                                     this.h.d(8);
                                                                                                                                 }
 lbl67:
-                                                                                                                                // 3 sources
 
                                                                                                                                 case 14: {
                                                                                                                                     break block89;
@@ -186,12 +185,11 @@ lbl67:
                                                                                                                             {
                                                                                                                                 case 13: {
                                                                                                                                     this.l.a('\n');
-                                                                                                                                    ** GOTO lbl67
+
                                                                                                                                 }
                                                                                                                                 ** case 12:
                                                                                                                             }
 lbl79:
-                                                                                                                            // 2 sources
 
                                                                                                                             for (var5_9 = 0; var5_9 < 8; ++var5_9) {
                                                                                                                                 this.k[var5_9].b();
@@ -288,17 +286,14 @@ lbl79:
                                                                                                                         this.l = this.k[var4_8];
                                                                                                                     }
 lbl162:
-                                                                                                                    // 10 sources
 
                                                                                                                     while (true) {
                                                                                                                         var1_4 = 3;
 lbl164:
-                                                                                                                        // 8 sources
 
                                                                                                                         while (true) {
                                                                                                                             var2_2 = var1_4;
 lbl166:
-                                                                                                                            // 5 sources
 
                                                                                                                             while (true) {
                                                                                                                                 var1_4 = 2;
@@ -314,9 +309,8 @@ lbl166:
                                                                                                                 case 151: {
                                                                                                                     if (b.c(this.l)) ** GOTO lbl174
                                                                                                                     this.h.d(32);
-                                                                                                                    ** GOTO lbl162
+
 lbl174:
-                                                                                                                    // 1 sources
 
                                                                                                                     var1_4 = this.h.b(2);
                                                                                                                     var1_4 = b.a((int)this.h.b(2), (int)this.h.b(2), (int)this.h.b(2), (int)var1_4);
@@ -331,14 +325,13 @@ lbl174:
                                                                                                                     var14_1 = this.l;
                                                                                                                     b.B(var14_1, (int)var1_4);
                                                                                                                     b.y(var14_1, (int)var2_2);
-                                                                                                                    ** GOTO lbl162
+
                                                                                                                 }
                                                                                                                 case 146: {
                                                                                                                     if (b.c(this.l)) ** GOTO lbl198
                                                                                                                     this.h.d(16);
-                                                                                                                    ** GOTO lbl162
+
 lbl198:
-                                                                                                                    // 1 sources
 
                                                                                                                     this.h.d(4);
                                                                                                                     var1_4 = this.h.b(4);
@@ -349,14 +342,13 @@ lbl198:
                                                                                                                         var14_1.a('\n');
                                                                                                                     }
                                                                                                                     b.G(var14_1, (int)var1_4);
-                                                                                                                    ** GOTO lbl162
+
                                                                                                                 }
                                                                                                                 case 145: {
                                                                                                                     if (b.c(this.l)) ** GOTO lbl212
                                                                                                                     this.h.d(24);
-                                                                                                                    ** GOTO lbl162
+
 lbl212:
-                                                                                                                    // 1 sources
 
                                                                                                                     var1_4 = this.h.b(2);
                                                                                                                     var1_4 = b.a((int)this.h.b(2), (int)this.h.b(2), (int)this.h.b(2), (int)var1_4);
@@ -365,12 +357,12 @@ lbl212:
                                                                                                                     this.h.d(2);
                                                                                                                     b.a((int)this.h.b(2), (int)this.h.b(2), (int)this.h.b(2), (int)0);
                                                                                                                     this.l.a(var1_4, var2_2);
-                                                                                                                    ** GOTO lbl162
+
                                                                                                                 }
                                                                                                                 case 144: {
                                                                                                                     if (!b.c(this.l)) {
                                                                                                                         this.h.d(16);
-                                                                                                                        ** continue;
+
                                                                                                                     }
                                                                                                                     this.h.b(4);
                                                                                                                     this.h.b(2);
@@ -382,7 +374,7 @@ lbl212:
                                                                                                                     var14_1.b(3);
                                                                                                                     this.h.b(3);
                                                                                                                     this.l.a(var12_15, var11_5);
-                                                                                                                    ** GOTO lbl164
+
                                                                                                                 }
                                                                                                                 case 143: {
                                                                                                                     var3_3 = 0;
@@ -396,7 +388,7 @@ lbl212:
                                                                                                                 case 141: {
                                                                                                                     this.h.d(8);
                                                                                                                     var1_4 = var2_2;
-                                                                                                                    ** GOTO lbl164
+
                                                                                                                 }
                                                                                                                 case 140: {
                                                                                                                     var3_3 = 1;
@@ -437,7 +429,7 @@ lbl212:
                                                                                                                     while (true) {
                                                                                                                         var1_4 = var2_2;
                                                                                                                         if (var3_3 <= 8) ** break;
-                                                                                                                        ** continue;
+
                                                                                                                         if (this.h.f()) {
                                                                                                                             b.q(this.k[8 - var3_3], (boolean)true);
                                                                                                                         }
@@ -476,11 +468,11 @@ lbl212:
                                                                                                                     break;
                                                                                                                 }
                                                                                                             }
-                                                                                                            ** GOTO lbl166
+
                                                                                                         }
                                                                                                         if (var5_9 <= 255) {
                                                                                                             this.l.a((char)(var5_9 & 255));
-                                                                                                            ** continue;
+
                                                                                                         }
                                                                                                         sr0.a((String)"Invalid base command: ", (int)var5_9, (String)"Cea708Decoder");
                                                                                                         var1_4 = 2;
@@ -491,7 +483,6 @@ lbl212:
                                                                                                     if (var5_9 > 31) break block96;
                                                                                                     if (var5_9 > 7) break block97;
 lbl325:
-                                                                                                    // 7 sources
 
                                                                                                     while (true) {
                                                                                                         var3_3 = 7;
@@ -502,15 +493,15 @@ lbl325:
                                                                                                 }
                                                                                                 if (var5_9 > 15) break block98;
                                                                                                 this.h.d(8);
-                                                                                                ** GOTO lbl325
+
                                                                                             }
                                                                                             if (var5_9 > 23) break block99;
                                                                                             this.h.d(16);
-                                                                                            ** GOTO lbl325
+
                                                                                         }
                                                                                         if (var5_9 > 31) ** GOTO lbl325
                                                                                         this.h.d(24);
-                                                                                        ** GOTO lbl325
+
                                                                                     }
                                                                                     var3_3 = 7;
                                                                                     if (var5_9 > 127) break block100;
@@ -531,7 +522,6 @@ lbl325:
                                                                                                     sr0.a((String)"Invalid G2 character: ", (int)var5_9, (String)"Cea708Decoder");
                                                                                                 }
 lbl359:
-                                                                                                // 11 sources
 
                                                                                                 while (true) {
                                                                                                     var1_4 = 2;
@@ -604,49 +594,49 @@ lbl359:
                                                                                             break;
                                                                                         }
                                                                                     }
-                                                                                    ** GOTO lbl359
+
                                                                                 }
                                                                                 this.l.a('\u2120');
-                                                                                ** GOTO lbl359
+
                                                                             }
                                                                             this.l.a('\u0153');
-                                                                            ** GOTO lbl359
+
                                                                         }
                                                                         this.l.a('\u0161');
-                                                                        ** GOTO lbl359
+
                                                                     }
                                                                     this.l.a('\u2122');
-                                                                    ** GOTO lbl359
+
                                                                 }
                                                                 this.l.a('\u0178');
-                                                                ** GOTO lbl359
+
                                                             }
                                                             this.l.a('\u0152');
-                                                            ** GOTO lbl359
+
                                                         }
                                                         this.l.a('\u0160');
-                                                        ** GOTO lbl359
+
                                                     }
                                                     this.l.a('\u2026');
-                                                    ** GOTO lbl359
+
                                                 }
                                                 this.l.a('\u00a0');
-                                                ** GOTO lbl359
+
                                             }
                                             this.l.a(' ');
-                                            ** continue;
+
                                         }
                                         if (var5_9 > 159) break block111;
                                         if (var5_9 > 135) break block112;
                                         this.h.d(32);
-                                        ** GOTO lbl325
+
                                     }
                                     if (var5_9 > 143) break block113;
                                     this.h.d(40);
-                                    ** GOTO lbl325
+
                                 }
                                 if (var5_9 <= 159) ** break;
-                                ** continue;
+
                                 var14_1 = this.h;
                                 var1_4 = 2;
                                 var14_1.d(2);

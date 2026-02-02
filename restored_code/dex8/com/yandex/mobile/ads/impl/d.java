@@ -61,13 +61,13 @@ extends l52 {
                 }
                 if (!var3_3) break block8;
                 var1_1 = this.d.a(var5_7);
-                ** GOTO lbl29
+
             }
             var2_2 = var4_6;
             var8_4 = var3_3;
             if (var5_7 >= this.c - 1) break block9;
             var1_1 = var5_7;
-            ** GOTO lbl36
+
         }
         block0: while (true) {
             var1_1 = -1;
@@ -82,7 +82,6 @@ extends l52 {
                 var8_4 = var3_3;
                 if (var1_1 >= this.c - 1) continue block0;
 lbl36:
-                // 2 sources
 
                 ++var1_1;
             }
@@ -224,13 +223,13 @@ lbl36:
                 }
                 if (!var3_3) break block8;
                 var1_1 = this.d.d(var5_7);
-                ** GOTO lbl29
+
             }
             var2_2 = var4_6;
             var8_4 = var3_3;
             if (var5_7 <= 0) break block9;
             var1_1 = var5_7;
-            ** GOTO lbl36
+
         }
         block0: while (true) {
             var1_1 = -1;
@@ -245,7 +244,6 @@ lbl36:
                 var8_4 = var3_3;
                 if (var1_1 <= 0) continue block0;
 lbl36:
-                // 2 sources
 
                 --var1_1;
             }

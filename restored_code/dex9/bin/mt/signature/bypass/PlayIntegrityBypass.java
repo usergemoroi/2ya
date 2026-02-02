@@ -189,8 +189,7 @@ public class PlayIntegrityBypass {
             );
             
             Log.i(TAG, "Google Play Services availability hooked");
-        } catch (Exception e) {
-            Log.d(TAG, "Failed to hook Google Play Services", e);
+        // Removed invalid catch block
         }
     }
     
@@ -252,8 +251,7 @@ public class PlayIntegrityBypass {
             
             return headerB64 + "." + payloadB64 + "." + signatureB64;
             
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to generate fake integrity token", e);
+        // Removed invalid catch block
             return FAKE_INTEGRITY_TOKEN;
         }
     }
@@ -282,8 +280,7 @@ public class PlayIntegrityBypass {
             
             return headerB64 + "." + payloadB64 + "." + signatureB64;
             
-        } catch (Exception e) {
-            Log.e(TAG, "Failed to generate fake SafetyNet JWS", e);
+        // Removed invalid catch block
             return "";
         }
     }

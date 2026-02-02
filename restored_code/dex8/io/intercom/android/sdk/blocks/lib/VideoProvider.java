@@ -19,7 +19,6 @@ public enum VideoProvider {
     DESCRIPT,
     UNKNOWN;
 
-
     /*
      * WARNING - void declaration
      * Enabled force condition propagation

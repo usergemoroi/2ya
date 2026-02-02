@@ -61,8 +61,7 @@ public class CacheControlHttpsConnectionPerformer {
                 client.onResponse((String)((Object)list), ((Response)object).getResponseData());
                 return;
             }
-            catch (Throwable throwable) {}
-        }
+        // Removed invalid catch block
         client.onError();
     }
 

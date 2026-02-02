@@ -96,8 +96,7 @@ implements cn0 {
             }
             if (var2_3 != null) {
                 var2_3 = new oo(var2_3.intValue(), "https://www.yandex.ru/ads/qr/gen");
-            } else lbl-1000:
-            // 2 sources
+            } else // 2 sources
 
             {
                 var2_3 = null;

@@ -107,7 +107,6 @@ extends b32 {
                 if (var22_4 == null) {
                     this.q = rj2.a((bg1)var1_1);
 lbl8:
-                    // 2 sources
 
                     while (true) {
                         var1_1 = null;
@@ -118,7 +117,7 @@ lbl8:
                 var17_5 = this.r;
                 if (var17_5 == null) {
                     this.r = rj2.a((bg1)var1_1, (boolean)true, (boolean)true);
-                    ** continue;
+
                 }
                 var18_6 = new byte[var1_1.e()];
                 System.arraycopy(var1_1.c(), 0, var18_6, 0, var1_1.e());
@@ -142,7 +141,6 @@ lbl8:
                                     if (var1_1.b()) {
                                         var23_21[var7_11] = var1_1.a(5) + 1;
 lbl37:
-                                        // 2 sources
 
                                         while (true) {
                                             var19_9 = var1_1;
@@ -151,7 +149,7 @@ lbl37:
                                         }
                                     }
                                     var23_21[var7_11] = 0L;
-                                    ** continue;
+
                                 }
                                 var19_9 = var1_1;
                                 var23_21[var7_11] = var19_9.a(5) + 1;
